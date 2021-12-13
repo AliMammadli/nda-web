@@ -1,0 +1,98 @@
+.contact {
+  @include atLarge {
+    background: url(../../../assets/images/bg-3.png) no-repeat center top;
+    background-size: 100% auto;
+    padding: 16rem 0;
+  }
+
+  @include atMedium {
+    padding: 15rem 0;
+  }
+
+  background: url(../../../assets/images/bg-3.png) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 8rem 0;
+
+  .row {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+
+    @include atSmall {
+      padding: 0;
+    }
+  }
+
+  h2 {
+    color: $dark-navy;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+
+    @include atSmall {
+      font-size: 3.5rem;
+      font-weight: 400;
+    }
+
+    @include atMedium {
+      font-size: 4rem;
+      font-weight: 500;
+    }
+
+    @include atLarge {
+      font-size: 4.5rem;
+    }
+  }
+
+  p {
+    @include atMedium {
+      font-size: 1.8rem;
+    }
+
+    @include atSmall {
+      font-size: 1.6rem;
+    }
+
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}
+
+.about-contact,
+.services-contact,
+.view-samples {
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+
+    @include atSmall {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+  }
+
+  p {
+    @include atSmall {
+      font-size: 1.6rem;
+    }
+
+    @include atMedium {
+      font-size: 1.8rem;
+    }
+
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}
+
+.view-samples {
+  background: none;
+
+  h2 {
+    color: $primary;
+  }
+}

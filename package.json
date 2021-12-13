@@ -1,0 +1,32 @@
+{
+  "name": "novum",
+  "version": "0.0.1",
+  "description": "CSS yazmaq istədikdə SCSS faylların içində yazıb, proyekt olan directory-də `npm run compile:sass` run etmək lazımdır.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "author": "Inci Gasimova",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.1",
+    "concurrently": "^6.2.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "postcss-cli": "^8.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inci-august/novum.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/inci-august/novum/issues"
+  },
+  "homepage": "https://github.com/inci-august/novum#readme"
+}

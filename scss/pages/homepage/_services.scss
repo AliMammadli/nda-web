@@ -1,0 +1,75 @@
+.services {
+  display: flex;
+
+  @include atSmall {
+    min-height: calc(100vh - 9.7rem);
+    padding: 8rem 0 !important;
+  }
+
+  padding: 5rem 0 6rem !important;
+
+  min-height: 100%;
+  background-color: $lighter-blue;
+  align-items: center;
+
+  p {
+    font-size: 1.6rem;
+    margin-bottom: 5rem;
+  }
+
+  .row {
+    margin-top: 0;
+    padding: 0 1rem;
+
+    @include atSmall {
+      padding: 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .card {
+    border: none;
+    border-top: 7px solid transparent;
+    border-radius: 5px;
+    padding: 4rem 2rem !important;
+    position: relative;
+    height: 100%;
+
+    transition: top 0.2s ease-in 0s;
+    cursor: pointer;
+    top: 0;
+
+    &:hover {
+      border-top: 7px solid $primary;
+      top: -10px;
+    }
+
+    img {
+      vertical-align: center;
+    }
+  }
+
+  .card-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $primary;
+    margin: 2rem 0 1rem;
+  }
+
+  .card-body {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: black;
+  }
+
+  &_cards {
+    margin-top: 6rem;
+  }
+
+  &.services-page {
+    background-color: $lightest-blue;
+  }
+}

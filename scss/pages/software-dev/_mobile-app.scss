@@ -1,0 +1,38 @@
+.mobile-app {
+  height: auto;
+  background: none;
+  color: $dark-navy;
+  padding-bottom: 7rem;
+
+  h2 {
+    font-size: 2rem;
+    margin: 3rem 0;
+
+    @include media-breakpoint-up(md) {
+      margin: 0 0 3rem;
+    }
+  }
+
+  .row {
+    padding: 0 1.5rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    color: $gray;
+    line-height: 2.4rem;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.6rem;
+    }
+  }
+
+  &__image {
+    @include media-breakpoint-up(lg) {
+      height: 100%;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

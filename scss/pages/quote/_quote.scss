@@ -1,0 +1,182 @@
+.quote {
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+
+    @include atSmall {
+      font-size: 4.5rem;
+    }
+  }
+
+  p {
+    @include atSmall {
+      font-size: 1.8rem;
+    }
+
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: $gray;
+    margin-bottom: 2rem;
+  }
+
+  header {
+    @include atSmall {
+      background: url(../../../assets/images/bg.png) no-repeat center bottom fixed;
+      background-size: cover;
+    }
+
+    background: url(../../../assets/images/bg.png) no-repeat center bottom;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 29.5rem;
+    color: $primary;
+    padding: 10rem 0 0;
+
+    p {
+      color: inherit;
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .social-icons {
+    align-self: flex-end;
+    text-align: left;
+    margin-top: 3rem;
+
+    @include atMedium {
+      text-align: right;
+    }
+
+    a {
+      display: inline-block;
+      color: $primary;
+
+      .fa-lg {
+        @include atSmall {
+          font-size: 2.1rem !important;
+        }
+
+        font-size: 2.4rem;
+        margin-right: 2rem;
+      }
+
+      .fa-linkedin:hover {
+        color: #0077b5;
+      }
+
+      .fa-facebook-square:hover {
+        color: #1877f2;
+      }
+
+      .fa-youtube:hover {
+        color: #ff0000;
+      }
+    }
+  }
+
+  img {
+    height: 100%;
+  }
+
+  &-content {
+    margin: 6rem 0;
+
+    .row {
+      @include atSmall {
+        padding: 1rem 0;
+      }
+
+      padding: 1rem;
+    }
+  }
+
+  .row {
+    @include atSmall {
+      padding: 6rem 0;
+    }
+
+    padding: 6rem 1rem;
+  }
+}
+
+.quote-form {
+  margin: 2rem 1rem 0 0;
+
+  @include media-breakpoint-up(lg) {
+    margin: 6rem 0;
+  }
+
+  .row {
+    @include media-breakpoint-up(lg) {
+      padding: 0.5rem 0;
+    }
+
+    padding: 0 0.5rem;
+
+    h2 {
+      margin: 1rem 1rem 3rem;
+      font-size: 2.5rem;
+      padding-left: 0;
+
+      @include media-breakpoint-up(lg) {
+        margin: 1rem 0 3rem;
+        font-size: 3.5rem;
+      }
+    }
+  }
+
+  .form-control,
+  .form-select {
+    font-size: 1.6rem;
+    height: 5rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $primary;
+    border-radius: 0;
+    border-bottom: 1px solid $primary;
+    background: none;
+    padding: 2rem 0 1rem;
+    margin-bottom: 4rem;
+
+    @include media-breakpoint-up(lg) {
+      padding: 2rem 0 1rem;
+    }
+  }
+
+  label {
+    font-size: 1.2rem;
+    color: $dark-navy;
+    font-weight: 400;
+  }
+
+  ::placeholder {
+    color: $dark-navy;
+  }
+}
+
+.quote-details {
+  padding: 2rem 1rem 4rem;
+
+  @include media-breakpoint-up(lg) {
+    padding: 0 0 0 7rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    color: $dark-navy;
+    line-height: 2.6rem;
+    margin-bottom: 2rem;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  img {
+    border-radius: 5px;
+  }
+}

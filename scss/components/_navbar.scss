@@ -1,0 +1,157 @@
+.navbar {
+  z-index: 99999999;
+  position: absolute;
+  width: 100vw;
+
+  @include atMedium {
+    padding: 2.4rem 1rem;
+  }
+
+  padding: 2.5rem 2rem;
+
+  .container {
+    padding: 0;
+
+    [aria-expanded="false"] {
+      .navbar-toggler-icon {
+        background-image: url("../../assets/images/navbar-toggler.svg") !important;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .nav-item {
+    @include atMedium {
+      margin-left: 3.2rem;
+    }
+
+    margin-left: 0;
+    font-weight: 500;
+
+    a {
+      color: $primary !important;
+      font-family: "Ubuntu";
+      position: relative;
+      font-size: 1.8rem;
+      font-weight: 500;
+
+      @include atMedium {
+        font-size: 1.6em;
+        opacity: 60%;
+      }
+
+      padding: 1.2rem 0;
+
+      @include atMedium {
+        &.active {
+          opacity: 100%;
+
+          &:after {
+            content: "";
+            background-color: $primary;
+            bottom: 0;
+            display: block;
+            height: 6px;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, 0);
+            width: 6px;
+            border-radius: 2px;
+          }
+        }
+      }
+
+      &:active,
+      &:hover,
+      &:focus {
+        opacity: 1;
+        font-weight: 700;
+
+        @include atMedium {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  &.inner {
+    @include gradient;
+  }
+
+  @media (max-width: 991.98px) {
+    .offcanvas-collapse {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 100%;
+      width: 90%;
+      padding: 0;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: #343a40;
+      transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+      height: 100vh;
+      background-color: #ffffff;
+      opacity: 0.9;
+    }
+
+    .offcanvas-collapse.open {
+      visibility: visible;
+      transform: translateX(-100%);
+    }
+
+    .navbar-toggler {
+      position: absolute;
+      right: 1rem;
+      top: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+
+      .navbar-toggler-icon-close {
+        background-image: url("../../assets/images/navbar-close.svg") !important;
+        font-size: 2.5rem;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+      }
+    }
+
+    .navbar-nav {
+      height: 100%;
+    }
+  }
+
+  .social-icons {
+    width: 100%;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+
+    a {
+      display: inline-block;
+      color: $primary;
+
+      .fa-lg {
+        font-size: 2.1rem !important;
+      }
+
+      .fa-linkedin:hover {
+        color: #0077b5;
+      }
+
+      .fa-facebook-square:hover {
+        color: #1877f2;
+      }
+
+      .fa-youtube:hover {
+        color: #ff0000;
+      }
+    }
+  }
+}

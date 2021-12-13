@@ -1,0 +1,31 @@
+.data-sources {
+  height: auto;
+  background-color: white;
+  color: $dark-navy;
+  padding-bottom: 7rem;
+
+  .row {
+    padding: 8rem 1.5rem 4rem;
+  }
+
+  p {
+    line-height: 3.5rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+
+    @include media-breakpoint-up(md) {
+      font-weight: 600;
+      line-height: 4rem;
+    }
+  }
+
+  &__image {
+    @include media-breakpoint-up(lg) {
+      height: 100%;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
