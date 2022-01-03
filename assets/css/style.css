@@ -14397,4 +14397,617 @@ a {
   }
 }
 
+.benefits {
+  height: auto;
+  background: none;
+  color: #272d51;
+  padding-bottom: 4rem;
+}
+@media (min-width: 768px) {
+  .benefits {
+    padding-bottom: 8.5rem;
+  }
+}
+.benefits h1, .benefits .h1 {
+  font-size: 3rem;
+  padding-left: 0;
+}
+.benefits h2, .benefits .h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #000;
+}
+@media (min-width: 768px) {
+  .benefits h2, .benefits .h2 {
+    margin-left: 9rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 5.5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .benefits h2, .benefits .h2 {
+    margin-top: 2.1rem;
+  }
+}
+.benefits .heading {
+  padding: 3.2rem 1.5rem;
+}
+@media (min-width: 768px) {
+  .benefits .heading {
+    padding: 8.8rem 1.5rem 0;
+  }
+}
+.benefits .logo {
+  width: 195px;
+  height: 54px;
+  border-radius: 0.5rem;
+  background-color: #3b4a9e;
+  color: #fff;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.benefits .body {
+  justify-content: center;
+  align-items: center;
+  border: 0.4rem solid rgba(59, 74, 158, 0.3);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .benefits .body {
+    margin-top: 6.8rem;
+    padding: 3.8rem 6rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .benefits .body {
+    margin-top: 0.5rem;
+    padding: 2rem 2.5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .benefits .body .list-row {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .benefits .body .list-col {
+    display: none;
+  }
+}
+.benefits .body h1, .benefits .body .h1 {
+  color: #3b4a9e;
+  margin-bottom: 2.2rem;
+}
+@media (max-width: 767.98px) {
+  .benefits .body h1, .benefits .body .h1 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+}
+.benefits .body h3, .benefits .body .h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+@media (min-width: 768px) {
+  .benefits .body h3, .benefits .body .h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+.benefits p {
+  font-size: 1.4rem;
+  color: #777777;
+  line-height: 2.4rem;
+}
+@media (min-width: 992px) {
+  .benefits p {
+    font-size: 1.6rem;
+  }
+}
+
+.cloud {
+  height: auto;
+  background: none;
+  padding: 3rem 0 5.2rem;
+}
+@media (min-width: 768px) {
+  .cloud {
+    padding-top: 4.8rem;
+  }
+}
+.cloud .header {
+  margin-bottom: 2.5rem;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .cloud .header {
+    justify-content: flex-start;
+  }
+}
+.cloud .header h3, .cloud .header .h3 {
+  color: #3b4a9e;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.cloud .feats {
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .cloud .feats {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.cloud .feat {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4.1rem;
+}
+@media (min-width: 768px) {
+  .cloud .feat {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 9rem;
+    margin-bottom: 0;
+  }
+}
+.cloud .feat .img-bg {
+  width: 7.4rem;
+  height: 7.4rem;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+.cloud .feat h3, .cloud .feat .h3 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-top: 0.6rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .cloud .feat h3, .cloud .feat .h3 {
+    margin-top: 1.1rem;
+    text-align: left;
+  }
+}
+
+.help {
+  height: auto;
+  background: none;
+  padding: 3rem 0 3.4rem;
+}
+@media (min-width: 768px) {
+  .help {
+    padding: 5.3rem 0 8rem;
+  }
+}
+.help .header {
+  margin-bottom: 2.4rem;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .help .header {
+    margin-bottom: 3.4rem;
+  }
+}
+.help .header h1, .help .header .h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3b4a9e;
+}
+.help .bg-img {
+  display: flex;
+  justify-content: space-evenly;
+  height: 35rem;
+  background-image: url("../../assets/images/bg-help.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+@media (max-width: 767.98px) {
+  .help .bg-img {
+    height: 90rem;
+    background-image: url("../../assets/images/bg-help-vertical.svg");
+    flex-direction: column;
+  }
+}
+@media (min-width: 1200px) {
+  .help .bg-img {
+    padding: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .help .bg-img {
+    padding: 0 10rem;
+  }
+}
+.help .bg-img .desc {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767.98px) {
+  .help .bg-img .desc {
+    padding: 0 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .help .bg-img .desc {
+    padding: 0 4rem;
+  }
+}
+@media (min-width: 1200px) {
+  .help .bg-img .desc {
+    padding: 0 5rem;
+  }
+}
+.help .bg-img p {
+  text-align: center;
+  color: "#272D51";
+  font-weight: 400;
+}
+@media (max-width: 767.98px) {
+  .help .bg-img p {
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+  }
+}
+@media (min-width: 992px) {
+  .help .bg-img p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .help .bg-img p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}
+
+.ms365 {
+  height: auto;
+  background: none;
+  padding: 3rem 0 2rem;
+}
+@media (min-width: 768px) {
+  .ms365 {
+    padding: 9rem 0 5rem;
+  }
+}
+.ms365 .logo {
+  width: 243px;
+  height: 54px;
+  border-radius: 0.5rem;
+  background-color: #3b4a9e;
+  color: #fff;
+  margin-bottom: 1.3rem;
+  justify-content: center;
+  align-items: center;
+}
+.ms365 .logo h1, .ms365 .logo .h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.ms365 .logo-desc {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  margin-bottom: 2.1rem;
+}
+@media (min-width: 768px) {
+  .ms365 .logo-desc {
+    font-size: 3rem;
+    line-height: 5.3rem;
+    margin-bottom: 1.8rem;
+  }
+}
+.ms365 .type {
+  display: flex;
+  height: 16.4rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+@media (min-width: 768px) {
+  .ms365 .type {
+    flex: 1;
+    padding: 3.6rem 2.4rem;
+  }
+}
+.ms365 .type h2, .ms365 .type .h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+@media (max-width: 767.98px) {
+  .ms365 .type-b {
+    background-image: linear-gradient(90deg, #3B4A9E 0%, rgba(59, 74, 158, 0.6) 100%), url("../../assets/images/ms-365-business-mb.png");
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .ms365 .type-b {
+    background-image: linear-gradient(90deg, #3B4A9E 0%, rgba(59, 74, 158, 0.6) 100%), url("../../assets/images/ms-365-business.png");
+    margin-right: 2.1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .ms365 .type-e {
+    background-image: linear-gradient(90deg, #3B4A9E 0%, rgba(59, 74, 158, 0.6) 100%), url("../../assets/images/ms-365-enterprise-mb.png");
+  }
+}
+@media (min-width: 768px) {
+  .ms365 .type-e {
+    background-image: linear-gradient(90deg, #3B4A9E 0%, rgba(59, 74, 158, 0.6) 100%), url("../../assets/images/ms-365-enterprise.png");
+  }
+}
+.ms365 .desc {
+  color: #272D51;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  line-height: 3.8rem;
+}
+@media (min-width: 768px) {
+  .ms365 .desc {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+  }
+}
+
+.offers {
+  height: auto;
+  background: none;
+  padding-bottom: 4rem;
+}
+@media (min-width: 768px) {
+  .offers {
+    padding-bottom: 6rem;
+  }
+}
+.offers .label {
+  font-weight: 600;
+  line-height: 3.4rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .offers .label {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 2.5rem;
+  }
+}
+.offers .offer {
+  flex: 1;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(90deg, #F0F0F0 0%, #FBFBFB 100%);
+  padding: 1.5rem;
+}
+@media (min-width: 768px) {
+  .offers .offer {
+    background-image: linear-gradient(270deg, #F0F0F0 0%, #FBFBFB 100%);
+    padding: 3rem;
+  }
+}
+.offers .offer h1, .offers .offer .h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  color: rgba(59, 74, 158, 0.3);
+}
+@media (min-width: 768px) {
+  .offers .offer h1, .offers .offer .h1 {
+    font-size: 7rem;
+    line-height: 6.2rem;
+    margin-right: 2.6rem;
+  }
+}
+.offers .offer p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+  color: #000;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .offers .offer p {
+    font-size: 1.6rem;
+  }
+}
+.offers .offer-m {
+  background-image: linear-gradient(90deg, #F0F0F0 0%, #FBFBFB 100%);
+}
+@media (max-width: 767.98px) {
+  .offers .offer-m {
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .offers .offer-m {
+    margin-right: 2rem;
+  }
+}
+.offers .space {
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .offers .space {
+    margin-top: 2rem;
+  }
+}
+
+.ms-business {
+  height: auto;
+  background: none;
+  padding-bottom: 4rem;
+}
+@media (min-width: 768px) {
+  .ms-business {
+    padding-bottom: 5rem;
+  }
+}
+.ms-business .label {
+  font-weight: 400;
+  line-height: 3.2rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .ms-business .label {
+    line-height: 3.2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+.ms-business .types {
+  flex: 1;
+}
+@media (max-width: 767.98px) {
+  .ms-business .types-bottom {
+    margin-top: 1rem;
+  }
+}
+.ms-business .type {
+  flex: 1;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .ms-business .type {
+    padding: 3rem;
+  }
+}
+.ms-business .type h2, .ms-business .type .h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .ms-business .type h2, .ms-business .type .h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+.ms-business .type-b {
+  background-image: linear-gradient(100.84deg, #EB5321 31.89%, #FBB8A2 128.05%);
+  margin-right: 1rem;
+}
+@media (min-width: 768px) {
+  .ms-business .type-b {
+    margin-right: 2rem;
+  }
+}
+.ms-business .type-s {
+  background-image: linear-gradient(282.69deg, #7FBA00 37.13%, #CDFB6C 134.27%);
+}
+@media (min-width: 768px) {
+  .ms-business .type-s {
+    margin-right: 2rem;
+  }
+}
+.ms-business .type-p {
+  background-image: linear-gradient(104.32deg, #08A1EF 41.09%, #CCEEFF 121.22%);
+  margin-right: 1rem;
+}
+@media (min-width: 768px) {
+  .ms-business .type-p {
+    margin-right: 2rem;
+  }
+}
+.ms-business .type-a {
+  background-image: linear-gradient(284.37deg, #FCBB01 34.62%, #FFEAAE 122.59%);
+}
+
+.ms-enterprise {
+  height: auto;
+  background: none;
+  padding-bottom: 3rem;
+}
+@media (min-width: 768px) {
+  .ms-enterprise {
+    padding-bottom: 5rem;
+  }
+}
+.ms-enterprise .label {
+  font-weight: 400;
+  line-height: 3.2rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .ms-enterprise .label {
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+.ms-enterprise .feat {
+  display: flex;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(90deg, #3B4A9E 0%, rgba(59, 74, 158, 0.6) 100%);
+}
+@media (min-width: 768px) {
+  .ms-enterprise .feat {
+    height: 15rem;
+    padding: 0 5rem 0 2.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+}
+.ms-enterprise .feat .img-bg {
+  display: flex;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 5.4rem;
+  height: 5.4rem;
+  border-radius: 50%;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .ms-enterprise .feat .img-bg {
+    width: 9.8rem;
+    height: 9.8rem;
+    margin-right: 2.5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .ms-enterprise .feat .img-bg {
+    margin-bottom: 0.3rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .ms-enterprise .feat .img-bg img {
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+}
+.ms-enterprise .feat h2, .ms-enterprise .feat .h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .ms-enterprise .feat h2, .ms-enterprise .feat .h2 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
