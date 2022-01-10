@@ -1,6 +1,6 @@
 .contact {
   @include atLarge {
-    background: url(../../../assets/images/bg-3.png) no-repeat center top;
+    background: url("../../assets/images/bg-3.png") no-repeat center top;
     background-size: 100% auto;
     padding: 16rem 0;
   }
@@ -9,7 +9,7 @@
     padding: 15rem 0;
   }
 
-  background: url(../../../assets/images/bg-3.png) no-repeat center center;
+  background: url("../../assets/images/bg-3.png") no-repeat center center;
   background-size: cover;
   display: flex;
   align-items: center;

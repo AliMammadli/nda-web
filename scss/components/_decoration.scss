@@ -1,6 +1,5 @@
 .footer,
-.blogpost-content,
-.brochure-nav {
+.blogpost-content {
   hr {
     border-radius: 5px;
     border: none;
@@ -15,4 +14,100 @@
     background: $primary;
     background: linear-gradient(to right, #c5e1ff 0%, #5381b3 70%, #c5e1ff 100%);
   }
+}
+
+.brochure-nav {
+    @include media-breakpoint-up(lg) {
+        padding: 7.1rem 0 7.1rem !important;
+        font-size: 1.6rem;
+    }
+
+    hr {
+        margin-top: 5rem;
+    }
+
+    a {
+        color: $primary;
+        text-decoration: none;
+    }
+
+    b {
+        color: #3e3e3f;
+    }
+
+    display: flex;
+    background-color: $light-gray;
+    font-size: 1.8rem;
+    padding: 5rem 1rem 0;
+
+    .tab-content {
+        background-color: transparent;
+
+        @include media-breakpoint-up(xl) {
+            height: 100%;
+            padding: 0rem 2rem 1rem;
+        }
+
+        p,
+        h5 {
+            color: $gray;
+            font-weight: 300;
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+        }
+
+        h5 {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        padding: 1rem;
+    }
+
+    .nav-pills {
+        border-left: 3px solid #D3D3D3;
+        background-color: transparent !important;
+        margin-bottom: 3rem;
+
+        @include media-breakpoint-up(lg) {
+            background-color: transparent;
+        }
+
+        .active {
+            background-color: transparent !important;
+            border-left: 3px solid $dark-navy;
+            position: relative;
+            left: -3px;
+        }
+
+        .nav-link {
+            color: rgba(39, 45, 81, 0.5);
+            font-weight: 400;
+            font-size: 1.5rem;
+            padding: 0 0 0 1.6rem;
+            border-radius: 0;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 1.6rem;
+            }
+
+            &.active,
+            &:active,
+            &:focus,
+            &:hover {
+                color: $dark-navy;
+                font-weight: 600;
+            }
+        }
+
+        .nav-link:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+    }
+    
 }

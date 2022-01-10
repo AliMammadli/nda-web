@@ -14,7 +14,7 @@
   font-weight: 500;
   color: $primary;
   box-shadow: inset 0px 0px 0px $primary;
-  transition: box-shadow 0.3s !important;
+  transition: box-shadow 0.5s !important;
 }
 
 .btn-outline-navy:hover,
@@ -33,7 +33,7 @@
   font-weight: 500;
   color: white;
   box-shadow: inset 0px 0px 0px white;
-  transition: box-shadow 0.3s !important;
+  transition: box-shadow 0.5s !important;
 }
 
 .btn-outline-white:hover,
@@ -52,7 +52,7 @@
   font-weight: 500;
   color: $dark-navy;
   box-shadow: inset 0px 0px 0px $dark-navy;
-  transition: box-shadow 0.3s !important;
+  transition: box-shadow 0.5s !important;
 }
 
 .btn-outline-dark-navy:hover,

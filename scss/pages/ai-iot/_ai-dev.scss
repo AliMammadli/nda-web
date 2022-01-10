@@ -1,8 +1,11 @@
 .ai-dev {
   height: auto;
-  background: none;
   color: $dark-navy;
-  padding-bottom: 7rem;
+  padding: 7.2rem 0 7rem;
+
+  @include media-breakpoint-up(md) {
+    padding: 9.7rem 0 9rem;
+  }
 
   h2 {
     font-size: 2rem;

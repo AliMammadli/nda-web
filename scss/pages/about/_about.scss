@@ -23,15 +23,15 @@
 
   header {
     @include atSmall {
-      background: url(../../../assets/images/bg.png) no-repeat center bottom fixed;
+      background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
       background-size: cover;
     }
 
-    background: url(../../../assets/images/bg.png) no-repeat center bottom;
+    background: url(../../assets/images/bg.png) no-repeat center bottom;
     background-size: cover;
     overflow: hidden;
     min-height: 29.5rem;
-    color: $primary;
+    color: $white;
     padding: 10rem 0 0;
 
     p {
@@ -83,7 +83,7 @@
 
     a {
       display: inline-block;
-      color: $primary;
+      color: $white;
 
       .fa-lg {
         @include atSmall {
