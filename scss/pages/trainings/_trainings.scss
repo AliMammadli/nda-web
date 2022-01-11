@@ -26,7 +26,8 @@
       background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
       background-size: cover;
     }
-
+    position: relative;
+    z-index: -1;
     background: url(../../assets/images/bg.png) no-repeat center bottom;
     background-size: cover;
     overflow: hidden;

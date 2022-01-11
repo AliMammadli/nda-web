@@ -11357,7 +11357,7 @@ a {
 .brochure-nav .tab-content p,
 .brochure-nav .tab-content h5,
 .brochure-nav .tab-content .h5 {
-  color: #777777;
+  color: #272d51;
   font-weight: 300;
   font-size: 1.4rem;
   margin-bottom: 2rem;
@@ -11402,12 +11402,23 @@ a {
     font-size: 1.6rem;
   }
 }
-.brochure-nav .nav-pills .nav-link.active, .brochure-nav .nav-pills .nav-link:active, .brochure-nav .nav-pills .nav-link:focus, .brochure-nav .nav-pills .nav-link:hover {
+.brochure-nav .nav-pills .nav-link.active, .brochure-nav .nav-pills .nav-link:active, .brochure-nav .nav-pills .nav-link:focus {
   color: #272d51;
   font-weight: 600;
 }
+.brochure-nav .nav-pills .nav-link:hover {
+  color: #272d51;
+}
 .brochure-nav .nav-pills .nav-link:not(:last-child) {
   margin-bottom: 2rem;
+}
+
+header .transparent-bg {
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #312a9188;
 }
 
 .jumbotron {
@@ -12012,7 +12023,7 @@ a {
 }
 @media (min-width: 1024px) {
   .contact {
-    padding: 15rem 0;
+    padding: 10rem 0;
   }
 }
 .contact .row {
@@ -13618,6 +13629,8 @@ a {
   }
 }
 .trainings header {
+  position: relative;
+  z-index: -1;
   background: url(../../assets/images/bg.png) no-repeat center bottom;
   background-size: cover;
   overflow: hidden;
