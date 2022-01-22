@@ -32,16 +32,6 @@ $(document).ready(function() {
         // Parameters has to be in square bracket '[]'
         owl.trigger("prev.owl.carousel", [300]);
     });
-
-
-    $(".carousel").swipe({
-        swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-            if (direction == 'left') $(this).carousel('next');
-            if (direction == 'right') $(this).carousel('prev');
-        },
-        allowPageScroll: "vertical"
-    });
-
 });
 
 (function mainScript() {

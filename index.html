@@ -24,8 +24,8 @@
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="
             d-flex
@@ -36,8 +36,8 @@
             justify-content-lg-end justify-content-center
           " id="navbarContent">
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas-2" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon-close"></span>
-          </button>
+                    <span class="navbar-toggler-icon-close"></span>
+                </button>
 
                 <ul class="
               navbar-nav
@@ -90,11 +90,11 @@
 
                     <div>
                         <a href="#" class="btn btn-lg mt-5 me-sm-5 btn-outline-white d-block d-sm-inline-block">
-                Our brochure
-              </a>
+                            Our brochure
+                        </a>
                         <a href="#" class="btn btn-lg mt-5 btn-outline-white d-block d-sm-inline-block">
-                View services
-              </a>
+                            View services
+                        </a>
                     </div>
                 </div>
 
@@ -363,12 +363,12 @@
 
                     <div>
                         <a href="#" class="btn btn-lg mt-5 me-md-5 btn-navy d-block d-md-inline-block">
-                View samples
-              </a>
+                            View samples
+                        </a>
                         <a href="#" class="btn btn-lg mt-5 d-none d-md-inline-block">Read more</a>
                         <a href="#" class="btn btn-lg mt-5 btn-outline-navy d-md-none d-block">
-                Read More
-              </a>
+                            Read More
+                        </a>
                     </div>
                 </div>
                 <div class="
@@ -404,12 +404,12 @@
 
                     <div>
                         <a class="btn btn-lg mt-5 me-md-5 btn-white d-block d-md-inline-block" type="button">
-                Download DWH Presentation
-              </a>
+                            Download DWH Presentation
+                        </a>
                         <a href="#" class="btn btn-lg mt-5 d-none d-md-inline-block">Read more</a>
                         <a href="#" class="btn btn-outline-white d-block d-md-none btn-lg mt-5">
-                Read more
-              </a>
+                            Read more
+                        </a>
                     </div>
                 </div>
                 <div class="
@@ -475,32 +475,32 @@
 
                     <div class="nav col-xl-4 col-12 flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="v-pills-business-tab" data-bs-toggle="pill" data-bs-target="#v-pills-business" type="button" role="tab" aria-controls="v-pills-business" aria-selected="true">
-                Explore business solutions
-              </a>
+                            Explore business solutions
+                        </a>
                         <a class="nav-link" id="v-pills-data-tab" data-bs-toggle="pill" data-bs-target="#v-pills-data" type="button" role="tab" aria-controls="v-pills-data" aria-selected="false">
-                Data insight & audiences
-              </a>
+                            Data insight & audiences
+                        </a>
                         <a class="nav-link" id="v-pills-experience-tab" data-bs-toggle="pill" data-bs-target="#v-pills-experience" type="button" role="tab" aria-controls="v-pills-experience" aria-selected="false">
-                Exprerience management platform
-              </a>
+                            Exprerience management platform
+                        </a>
                         <a class="nav-link" id="v-pills-content-tab" data-bs-toggle="pill" data-bs-target="#v-pills-content" type="button" role="tab" aria-controls="v-pills-content" aria-selected="false">
-                Content management
-              </a>
+                            Content management
+                        </a>
                         <a class="nav-link" id="v-pills-commerce-tab" data-bs-toggle="pill" data-bs-target="#v-pills-commerce" type="button" role="tab" aria-controls="v-pills-commerce" aria-selected="false">
-                Commerce
-              </a>
+                            Commerce
+                        </a>
                         <a class="nav-link" id="v-pills-customer-tab" data-bs-toggle="pill" data-bs-target="#v-pills-customer" type="button" role="tab" aria-controls="v-pills-customer" aria-selected="false">
-                Customer journeys
-              </a>
+                            Customer journeys
+                        </a>
                         <a class="nav-link" id="v-pills-marketing-tab" data-bs-toggle="pill" data-bs-target="#v-pills-marketing" type="button" role="tab" aria-controls="v-pills-marketing" aria-selected="false">
-                B2B marketing
-              </a>
+                            B2B marketing
+                        </a>
                         <a class="nav-link" id="v-pills-onboarding-tab" data-bs-toggle="pill" data-bs-target="#v-pills-onboarding" type="button" role="tab" aria-controls="v-pills-onboarding" aria-selected="false">
-                Digital enrollment & onboarding
-              </a>
+                            Digital enrollment & onboarding
+                        </a>
                         <a class="nav-link" id="v-pills-workflow-tab" data-bs-toggle="pill" data-bs-target="#v-pills-workflow" type="button" role="tab" aria-controls="v-pills-workflow" aria-selected="false">
-                Marketing workflow
-              </a>
+                            Marketing workflow
+                        </a>
                     </div>
                 </div>
             </div>
@@ -526,8 +526,8 @@
                 me-sm-5
                 btn-outline-dark-navy
               ">
-              Get in touch
-            </a>
+                        Get in touch
+                    </a>
                 </div>
             </div>
         </div>
@@ -611,6 +611,15 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/scripts/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+    <script>
+        $(".carousel").swipe({
+            swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+                if (direction == 'left') $(this).carousel('next');
+                if (direction == 'right') $(this).carousel('prev');
+            },
+            allowPageScroll: "vertical"
+        });
+    </script>
     <script src="assets/scripts/script.js"></script>
 
     <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.min.js"></script>
