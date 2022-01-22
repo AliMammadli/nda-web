@@ -1,0 +1,70 @@
+.digital-strategy {
+    height: auto;
+    color: $dark-navy;
+    &__header,
+    &__sub-header {
+        font-size: 2.5rem;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+    &__header {
+        padding: 0.5rem 1rem;
+        background-color: $navy;
+        color: white;
+        display: inline-block;
+        margin-right: 2rem;
+        @include media-breakpoint-up(lg) {
+            font-size: 3rem;
+        }
+    }
+    &__image {
+        display: flex;
+        justify-content: center;
+        @include media-breakpoint-up(xl) {
+            justify-content: flex-end;
+        }
+        img {
+            height: 100%;
+        }
+    }
+    &__sub-header {
+        font-size: 2.5rem;
+        color: $dark-navy;
+        font-weight: 600;
+        @include media-breakpoint-up(lg) {
+            font-size: 3rem;
+        }
+    }
+    &__header-2 {
+        margin: 7rem 0 4rem;
+        @include media-breakpoint-up(md) {
+            font-size: 3rem;
+        }
+    }
+    &__about {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+        @include media-breakpoint-up(xl) {
+            margin-bottom: 0;
+        }
+        p {
+            margin-top: 3rem;
+        }
+        .about-header {
+            font-weight: bold;
+        }
+    }
+    &__benefits {
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        @include media-breakpoint-up(lg) {
+            font-size: 2rem;
+        }
+    }
+    .row {
+        padding: 7rem 1.5rem;
+        @include media-breakpoint-up(xl) {
+            padding: 10rem 0;
+        }
+    }
+}

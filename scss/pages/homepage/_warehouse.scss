@@ -1,88 +1,73 @@
 .warehouse {
-  height: auto;
-  @include atSmall {
-    min-height: 72vh;
-  }
-  background: rgb(63, 76, 152);
-  background: linear-gradient(0deg, rgba(63, 76, 152, 1) 0%, rgba(99, 114, 199, 1) 100%);
-  color: white;
-
-  .row {
-    padding: 4rem 1rem 5rem;
-
+    height: auto;
     @include atSmall {
-      padding: 10rem 0;
+        min-height: 72vh;
     }
-  }
-
-  &__text {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  h2 {
-    @include atMedium {
-      font-size: 4.5rem;
+    background: rgb(63, 76, 152);
+    background: linear-gradient(0deg, rgba(63, 76, 152, 1) 0%, rgba(99, 114, 199, 1) 100%);
+    color: white;
+    .row {
+        padding: 4rem 1rem 5rem;
+        @include atSmall {
+            padding: 10rem 0;
+        }
     }
-
-    @include atSmall {
-      font-size: 3.5rem;
+    &__text {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
-
-    margin-bottom: 2.4rem;
-    font-size: 2.5rem;
-    color: inherit;
-    margin-top: 3rem;
-  }
-
-  p {
-    @include atSmall {
-      font-size: 1.6rem;
-      line-height: 3rem;
+    h2 {
+        @include atMedium {
+            font-size: 4.5rem;
+        }
+        @include atSmall {
+            font-size: 3.5rem;
+        }
+        margin-bottom: 2.4rem;
+        font-size: 2.5rem;
+        color: inherit;
+        margin-top: 3rem;
     }
-
-    font-size: 1.4rem;
-    line-height: 2.4rem;
-    font-weight: 300;
-  }
-
-  .btn-white {
-    background-color: white;
-    color: $navy;
-    border: 1px solid white;
-
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: darken(white, 10%);
+    p {
+        @include atSmall {
+            font-size: 1.6rem;
+            line-height: 3rem;
+        }
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        font-weight: 300;
     }
-  }
-
-  a {
-    color: inherit;
-
-    &:hover,
-    &:focus,
-    &:active {
-      color: inherit;
-      margin-left: 2px;
+    .btn-white {
+        background-color: white;
+        color: $navy;
+        border: 1px solid white;
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: darken(white, 10%);
+            color: $navy;
+        }
     }
-  }
-
-  &__image {
-    display: flex;
-    justify-content: center;
-
-    @include atSmall {
-      align-items: flex-end;
+    a {
+        color: inherit;
+        &:hover,
+        &:focus,
+        &:active {
+            color: inherit;
+            // margin-left: 2px;
+        }
     }
-
-    img {
-      @include atSmall {
-        width: 100%;
-      }
-
-      width: 90%;
+    &__image {
+        display: flex;
+        justify-content: center;
+        @include atSmall {
+            align-items: flex-end;
+        }
+        img {
+            @include atSmall {
+                width: 100%;
+            }
+            width: 90%;
+        }
     }
-  }
 }

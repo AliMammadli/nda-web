@@ -1,12 +1,10 @@
 .ms365 {
     height: auto;
-    background: none;
+    background: white;
     padding: 3rem 0 2rem;
-
     @include media-breakpoint-up(md) {
         padding: 9rem 0 5rem;
     }
-
     .logo {
         width: 243px;
         height: 54px;
@@ -16,26 +14,22 @@
         margin-bottom: 1.3rem;
         justify-content: center;
         align-items: center;
-
         h1 {
             font-size: 3rem;
             font-weight: 600;
         }
     }
-
     .logo-desc {
         font-size: 2.5rem;
         font-weight: 400;
         line-height: 3.2rem;
         margin-bottom: 2.1rem;
-
         @include media-breakpoint-up(md) {
             font-size: 3rem;
             line-height: 5.3rem;
             margin-bottom: 1.8rem;
         }
     }
-
     .type {
         display: flex;
         height: 16.4rem;
@@ -44,48 +38,40 @@
         background-size: cover;
         border-radius: 0.5rem;
         padding: 2rem;
-
         @include media-breakpoint-up(md) {
             flex: 1;
             padding: 3.6rem 2.4rem;
         }
-
         h2 {
             font-size: 2.5rem;
             font-weight: 400;
             color: $white;
         }
     }
-
     .type-b {
         @include media-breakpoint-down(md) {
             background-image: linear-gradient(90deg, #3B4A9E 0%, rgba(59, 74, 158, 0.6) 100%), url("../../assets/images/ms-365-business-mb.png");
             margin-bottom: 1rem;
         }
-
         @include media-breakpoint-up(md) {
             background-image: linear-gradient(90deg, #3B4A9E 0%, rgba(59, 74, 158, 0.6) 100%), url("../../assets/images/ms-365-business.png");
             margin-right: 2.1rem;
         }
     }
-
     .type-e {
         @include media-breakpoint-down(md) {
             background-image: linear-gradient(90deg, #3B4A9E 0%, rgba(59, 74, 158, 0.6) 100%), url("../../assets/images/ms-365-enterprise-mb.png");
         }
-
         @include media-breakpoint-up(md) {
             background-image: linear-gradient(90deg, #3B4A9E 0%, rgba(59, 74, 158, 0.6) 100%), url("../../assets/images/ms-365-enterprise.png");
         }
     }
-
     .desc {
         color: #272D51;
         font-size: 2rem;
         margin-top: 2rem;
         font-weight: 600;
         line-height: 3.8rem;
-
         @include media-breakpoint-up(md) {
             font-size: 2.5rem;
             margin-top: 4rem;

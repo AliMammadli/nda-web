@@ -1,65 +1,54 @@
 .powerbi {
-  @include atSmall {
-    min-height: 72vh;
-  }
-
-  height: auto;
-  background: rgb(227, 164, 5);
-  background: linear-gradient(0deg, rgba(227, 164, 5, 1) 0%, rgba(255, 210, 98, 1) 100%);
-  color: $dark-navy;
-
-  .row {
     @include atSmall {
-      padding: 8rem 0;
+        min-height: 72vh;
     }
-
-    padding: 3rem 1rem 0;
-  }
-
-  &__text {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
-  h2 {
-    @include atMedium {
-      font-size: 4.5rem;
+    height: auto;
+    background: rgb(227, 164, 5);
+    background: linear-gradient(0deg, rgba(227, 164, 5, 1) 0%, rgba(255, 210, 98, 1) 100%);
+    color: $dark-navy;
+    .row {
+        @include atSmall {
+            padding: 8rem 0;
+        }
+        padding: 3rem 1rem 0;
     }
-
-    @include atSmall {
-      font-size: 3.5rem;
+    &__text {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
     }
-
-    color: inherit;
-    margin-bottom: 2.4rem;
-  }
-
-  p {
-    font-size: 1.4rem;
-    font-weight: 300;
-
-    @include atSmall {
-      font-size: 1.6rem;
-      line-height: 3rem;
-      font-weight: 400;
+    h2 {
+        @include atMedium {
+            font-size: 4.5rem;
+        }
+        @include atSmall {
+            font-size: 3.5rem;
+        }
+        color: inherit;
+        margin-bottom: 2.4rem;
     }
-  }
-
-  a:nth-child(2) {
-    &:hover,
-    &:focus,
-    &:active {
-      color: inherit;
-      margin-left: 2px;
+    p {
+        font-size: 1.4rem;
+        font-weight: 300;
+        @include atSmall {
+            font-size: 1.6rem;
+            line-height: 3rem;
+            font-weight: 400;
+        }
     }
-  }
-
-  &__image {
-    @include media-breakpoint-up(lg) {
-      height: 100%;
-      display: flex !important;
-      align-items: center;
-      justify-content: center;
+    a:nth-child(2) {
+        &:hover,
+        &:focus,
+        &:active {
+            color: inherit;
+            // margin-left: 2px;
+        }
     }
-  }
+    &__image {
+        @include media-breakpoint-up(lg) {
+            height: 100%;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }

@@ -1,131 +1,118 @@
 .blog {
-  h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-
-    @include atSmall {
-      font-size: 4.5rem;
-    }
-  }
-
-  p {
-    @include atSmall {
-      font-size: 1.8rem;
-    }
-
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    font-weight: 400;
-    color: $gray;
-    margin-bottom: 2rem;
-  }
-
-  header {
-    @include atSmall {
-      background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
-      background-size: cover;
-    }
-
-    background: url(../../assets/images/bg.png) no-repeat center bottom;
-    background-size: cover;
-    overflow: hidden;
-    min-height: 29.5rem;
-    color: $white;
-    padding: 10rem 0 0;
-
-    p {
-      color: inherit;
-      margin-bottom: 0 !important;
-    }
-  }
-
-  .social-icons {
-    align-self: flex-end;
-    text-align: left;
-    margin-top: 3rem;
-
-    @include atMedium {
-      text-align: right;
-    }
-
-    a {
-      display: inline-block;
-      color: $white;
-
-      .fa-lg {
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
         @include atSmall {
-          font-size: 2.1rem !important;
+            font-size: 4.5rem;
         }
-
-        font-size: 2.4rem;
-        margin-right: 2rem;
-      }
-
-      .fa-linkedin:hover {
-        color: #0077b5;
-      }
-
-      .fa-facebook-square:hover {
-        color: #1877f2;
-      }
-
-      .fa-youtube:hover {
-        color: #ff0000;
-      }
     }
-  }
-
-  img {
-    height: 100%;
-  }
-
-  &-content {
-    margin: 6rem 0;
-
-    .row {
-      @include atSmall {
-        padding: 1rem 0;
-      }
-
-      padding: 1rem;
+    p {
+        @include atSmall {
+            font-size: 1.8rem;
+        }
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        font-weight: 400;
+        color: $gray;
+        margin-bottom: 2rem;
     }
-
-    .card {
-      .card-img-top {
-        transition: all 0.3s ease-in-out;
+    header {
+        @include atSmall {
+            background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
+            background-size: cover;
+        }
+        position: relative;
+        z-index: 1;
+        background: url(../../assets/images/bg.png) no-repeat center bottom;
+        background-size: cover;
         overflow: hidden;
-      }
-
-      &:hover {
-        img {
-          transform: scale(1.1);
+        min-height: 29.5rem;
+        color: $white;
+        padding: 10rem 0 0;
+        p {
+            color: inherit;
+            margin-bottom: 0 !important;
         }
-
-        .card-img-overlay {
-          color: darken(white, 10%);
-
-          &:hover,
-          &:focus,
-          &:active {
-            color: white;
-          }
+    }
+    .social-icons {
+        align-self: flex-end;
+        text-align: left;
+        margin-top: 3rem;
+        @include atMedium {
+            text-align: right;
         }
-      }
+        a {
+            display: inline-block;
+            color: $white;
+            .fa-lg {
+                @include atSmall {
+                    font-size: 2.1rem !important;
+                }
+                font-size: 2.4rem;
+                margin-right: 2rem;
+            }
+            .fa-linkedin:hover {
+                color: #0077b5;
+            }
+            .fa-facebook-square:hover {
+                color: #1877f2;
+            }
+            .fa-youtube:hover {
+                color: #ff0000;
+            }
+        }
     }
-  }
-
-  .row {
-    @include atSmall {
-      padding: 6rem 0;
+    img {
+        height: 100%;
     }
-
-    padding: 6rem 1rem;
-  }
-
-  &-cards {
-    .col:last-child {
-      width: 100%;
+    &-content {
+        margin: 6rem 0;
+        .row {
+            @include atSmall {
+                padding: 1rem 0;
+            }
+            padding: 1rem;
+            .col {
+                @include atLarge {
+                    flex: 1;
+                }
+                max-height: 422px;
+            }
+        }
+        .card {
+            height: 100%;
+            .card-img-top {
+                transition: all 0.3s ease-in-out;
+                overflow: hidden;
+                max-height: 422px;
+                object-fit: cover;
+                height: 100%;
+            }
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                }
+                .card-img-overlay {
+                    color: darken(white, 10%);
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        color: white;
+                    }
+                }
+            }
+        }
     }
-  }
+    .row {
+        @include atSmall {
+            padding: 6rem 0;
+        }
+        padding: 6rem 1rem;
+    }
+    // &-cards {
+    // .col:last-child {
+    //     width: 100%;
+    // }
+    // }
 }

@@ -1,80 +1,76 @@
 // Buttons
 .btn {
-  border-radius: 0.5rem !important;
-  font-size: 1.6rem;
-  outline-color: none;
+    border-radius: 0.5rem !important;
+    font-size: 1.6rem;
+    outline-color: none;
 }
 
 .btn-lg {
-  padding: 1.2rem 3.4rem;
+    padding: 1.2rem 3.4rem;
 }
 
 .btn-outline-navy {
-  border: 1px solid $primary;
-  font-weight: 500;
-  color: $primary;
-  box-shadow: inset 0px 0px 0px $primary;
-  transition: box-shadow 0.5s !important;
+    border: 1px solid $primary;
+    font-weight: 500;
+    color: $primary;
+    box-shadow: inset 0px 0px 0px $primary;
+    transition: box-shadow 0.8s !important;
 }
 
 .btn-outline-navy:hover,
 .btn-outline-navy:active,
 .btn-outline-navy:focus {
-  box-shadow: inset 520px 0px 0px $primary;
-
-  @include atSmall {
-    box-shadow: inset 300px 0px 0px $primary;
-  }
-  color: white;
+    box-shadow: inset 520px 0px 0px $primary;
+    @include atSmall {
+        box-shadow: inset 300px 0px 0px $primary;
+    }
+    color: white;
 }
 
 .btn-outline-white {
-  border: 1px solid white;
-  font-weight: 500;
-  color: white;
-  box-shadow: inset 0px 0px 0px white;
-  transition: box-shadow 0.5s !important;
+    border: 1px solid white;
+    font-weight: 500;
+    color: white;
+    box-shadow: inset 0px 0px 0px white;
+    transition: box-shadow 0.8s !important;
 }
 
 .btn-outline-white:hover,
 .btn-outline-white:active,
 .btn-outline-white:focus {
-  box-shadow: inset 520px 0px 0px white;
-  color: $primary !important;
-
-  @include atSmall {
-    box-shadow: inset 300px 0px 0px white;
-  }
+    box-shadow: inset 520px 0px 0px white;
+    color: $primary !important;
+    @include atSmall {
+        box-shadow: inset 300px 0px 0px white;
+    }
 }
 
 .btn-outline-dark-navy {
-  border: 1px solid $dark-navy;
-  font-weight: 500;
-  color: $dark-navy;
-  box-shadow: inset 0px 0px 0px $dark-navy;
-  transition: box-shadow 0.5s !important;
+    border: 1px solid $dark-navy;
+    font-weight: 500;
+    color: $dark-navy;
+    box-shadow: inset 0px 0px 0px $dark-navy;
+    transition: box-shadow 0.8s !important;
 }
 
 .btn-outline-dark-navy:hover,
 .btn-outline-dark-navy:active,
 .btn-outline-dark-navy:focus {
-  box-shadow: inset 520px 0px 0px $dark-navy;
-
-  @include atSmall {
-    box-shadow: inset 300px 0px 0px $dark-navy;
-  }
-  color: white;
+    box-shadow: inset 520px 0px 0px $dark-navy;
+    @include atSmall {
+        box-shadow: inset 300px 0px 0px $dark-navy;
+    }
+    color: white;
 }
 
 .btn-navy {
-  background-color: $primary;
-  color: white;
-  border: 1px solid $primary;
-
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: darken($primary, 10%);
+    background-color: $primary;
     color: white;
-  }
+    border: 1px solid $primary;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: darken($primary, 10%);
+        color: white;
+    }
 }

@@ -1,46 +1,38 @@
 .ai-dev {
-  height: auto;
-  color: $dark-navy;
-  padding: 7.2rem 0 7rem;
-
-  @include media-breakpoint-up(md) {
-    padding: 9.7rem 0 9rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-    margin: 3rem 0;
-
+    height: auto;
+    color: $dark-navy;
+    padding: 7.2rem 0 7rem;
     @include media-breakpoint-up(md) {
-      margin: 0 0 3rem;
+        padding: 9.7rem 0 9rem;
     }
-  }
-
-  .row {
-    padding: 0 1.5rem;
-  }
-
-  p,
-  h5 {
-    font-size: 1.4rem;
-    color: $gray;
-    line-height: 2.4rem;
-
-    @include media-breakpoint-up(lg) {
-      font-size: 1.6rem;
+    h2 {
+        font-size: 2rem;
+        margin: 3rem 0;
+        @include media-breakpoint-up(md) {
+            margin: 0 0 3rem;
+        }
     }
-  }
-
-  h5 {
-    font-weight: 600;
-  }
-
-  &__image {
-    @include media-breakpoint-up(lg) {
-      height: 100%;
-      display: flex !important;
-      align-items: center;
-      justify-content: center;
+    // .row {
+    //     padding: 0 1.5rem;
+    // }
+    p,
+    h5 {
+        font-size: 1.4rem;
+        // color: $gray;
+        line-height: 2.4rem;
+        @include media-breakpoint-up(lg) {
+            font-size: 1.6rem;
+        }
     }
-  }
+    h5 {
+        font-weight: 600;
+    }
+    &__image {
+        @include media-breakpoint-up(lg) {
+            height: 100%;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }

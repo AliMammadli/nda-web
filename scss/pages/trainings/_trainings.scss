@@ -1,123 +1,102 @@
 .trainings {
-  h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-
-    @include atSmall {
-      font-size: 4.5rem;
-    }
-  }
-
-  p {
-    @include atSmall {
-      font-size: 1.8rem;
-    }
-
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    font-weight: 400;
-    color: $gray;
-    margin-bottom: 2rem;
-  }
-
-  header {
-    @include atSmall {
-      background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
-      background-size: cover;
-    }
-    position: relative;
-    z-index: -1;
-    background: url(../../assets/images/bg.png) no-repeat center bottom;
-    background-size: cover;
-    overflow: hidden;
-    min-height: 29.5rem;
-    color: $white;
-    padding: 10rem 0 0;
-
-    p {
-      color: inherit;
-      margin-bottom: 0 !important;
-    }
-  }
-
-  .about {
-    .row {
-      @include atSmall {
-        padding: 2rem 0;
-      }
-
-      @include atMedium {
-        padding: 6rem 0 2rem;
-      }
-
-      padding: 0 1rem 1rem;
-    }
-
-    p {
-      font-size: 1.4rem;
-      line-height: 2.4rem;
-      font-weight: 400;
-
-      @include atSmall {
-        font-size: 1.6rem;
-      }
-
-      @include atMedium {
-        font-size: 1.7rem;
-      }
-
-      @include atLarge {
-        font-size: 1.8rem;
-      }
-    }
-  }
-
-  .social-icons {
-    align-self: flex-end;
-    text-align: left;
-    margin-top: 3rem;
-
-    @include atMedium {
-      text-align: right;
-    }
-
-    a {
-      display: inline-block;
-      color: $white;
-
-      .fa-lg {
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
         @include atSmall {
-          font-size: 2.1rem !important;
+            font-size: 4.5rem;
         }
-
-        font-size: 2.4rem;
-        margin-right: 2rem;
-      }
-
-      .fa-linkedin:hover {
-        color: #0077b5;
-      }
-
-      .fa-facebook-square:hover {
-        color: #1877f2;
-      }
-
-      .fa-youtube:hover {
-        color: #ff0000;
-      }
     }
-  }
-
-  img {
-    height: 100%;
-  }
-
-  .row {
-    @include atSmall {
-      padding: 6rem 0;
+    p {
+        @include atSmall {
+            font-size: 1.8rem;
+        }
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        font-weight: 400;
+        color: $gray;
+        margin-bottom: 2rem;
     }
-
-    padding: 6rem 1rem;
-  }
+    header {
+        @include atSmall {
+            background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
+            background-size: cover;
+        }
+        position: relative;
+        z-index: 1;
+        position: relative;
+        z-index: -1;
+        background: url(../../assets/images/bg.png) no-repeat center bottom;
+        background-size: cover;
+        overflow: hidden;
+        min-height: 29.5rem;
+        color: $white;
+        padding: 10rem 0 0;
+        p {
+            color: inherit;
+            margin-bottom: 0 !important;
+        }
+    }
+    .about {
+        .row {
+            @include atSmall {
+                padding: 2rem 0;
+            }
+            @include atMedium {
+                padding: 6rem 0 2rem;
+            }
+            padding: 0 1rem 1rem;
+        }
+        p {
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            font-weight: 400;
+            @include atSmall {
+                font-size: 1.6rem;
+            }
+            @include atMedium {
+                font-size: 1.7rem;
+            }
+            @include atLarge {
+                font-size: 1.8rem;
+            }
+        }
+    }
+    .social-icons {
+        align-self: flex-end;
+        text-align: left;
+        margin-top: 3rem;
+        @include atMedium {
+            text-align: right;
+        }
+        a {
+            display: inline-block;
+            color: $white;
+            .fa-lg {
+                @include atSmall {
+                    font-size: 2.1rem !important;
+                }
+                font-size: 2.4rem;
+                margin-right: 2rem;
+            }
+            .fa-linkedin:hover {
+                color: #0077b5;
+            }
+            .fa-facebook-square:hover {
+                color: #1877f2;
+            }
+            .fa-youtube:hover {
+                color: #ff0000;
+            }
+        }
+    }
+    img {
+        height: 100%;
+    }
+    .row {
+        @include atSmall {
+            padding: 6rem 0;
+        }
+        padding: 6rem 1rem;
+    }
 }
