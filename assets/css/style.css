@@ -12645,6 +12645,8 @@ header .transparent-bg {
   }
 }
 .blogpost header {
+  position: relative;
+  z-index: 1;
   background: url(../../assets/images/bg.png) no-repeat center bottom;
   background-size: cover;
   overflow: hidden;
