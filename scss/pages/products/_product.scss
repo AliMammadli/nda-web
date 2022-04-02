@@ -1,0 +1,177 @@
+.product {
+    height: auto;
+    background: none;
+    padding: 9rem 0;
+
+    @include media-breakpoint-down(lg) {
+        padding: 2.5rem 0;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        @include media-breakpoint-down(md) {
+            padding: 0 0.85rem;
+        }
+    }
+
+    .ats {
+        background: linear-gradient(269.71deg, #FCCC6B 0%, #3B4A9E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .nes {
+        background: linear-gradient(269.76deg, #EF7A88 0%, #3D8FDB 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .ocr {
+        background: linear-gradient(269.74deg, #7365E7 0%, #39B7C2 99.95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .frfd {
+        background: linear-gradient(90.24deg, #3B4A9E 0%, #EB5321 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .ctp {
+        background: linear-gradient(269.73deg, #3CCACE 0%, #312A91 99.95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-weight: 300;
+        line-height: 2.6rem;
+        color: #000;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+            margin-bottom: 1rem;
+        }
+        
+        @include media-breakpoint-down(md) {
+            padding: 0 0.85rem;
+        }
+
+        span {
+            font-weight: 700;
+            color: $navy;
+        }
+    }
+
+    img {
+        width: 53.8rem;
+        height: 39.1rem;
+
+        @include media-breakpoint-down(lg) {
+            width: 30rem;
+            height: 21.8rem;
+        }
+
+        @include media-breakpoint-down(md) {
+            width: 28.8rem;
+            height: 20.9rem;
+            margin: 0 0 2.3rem 0;
+            align-self: center;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        img:nth-child(2n) {
+            margin-left: 5rem;
+        }
+
+        img:nth-child(2n + 1) {
+            margin-right: 5rem;
+        }
+    }
+
+    .list-row {
+        @include media-breakpoint-down(md) {
+            display: none;
+        }
+    }
+
+    .list-col {
+        @include media-breakpoint-up(md) {
+            display: none;
+        }
+    }
+
+    .products-benefits {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+
+        @include media-breakpoint-down(md) {
+            padding: 0 0.85rem;
+        }
+
+        .item {
+            display: flex;
+            background-color: #fff;
+            height: 5.6rem;
+            min-width: calc(50% - 1.5rem);
+            flex-basis: calc(50% - 3rem);
+            align-items: center;
+            border-radius: 0.5rem;
+            margin-bottom: 2.5rem;
+
+            @include media-breakpoint-down(md) {
+                flex-basis: 100%;
+            }
+        }
+
+        @include media-breakpoint-up(md) {
+            .item:nth-child(2n) {
+                margin-left: 3rem;
+            }
+        }
+
+        .item-cap {
+            min-width: 0.5rem;
+            height: 5.6rem;
+            background-color: $navy;
+            border-radius: 0.3rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+            font-weight: 300;
+            line-height: 2.6rem;
+            color: #000;
+            margin-bottom: 0;
+            margin-left: 2rem;
+    
+            @include media-breakpoint-down(md) {
+                font-size: 1.2rem;
+                line-height: 2.2rem;
+            }
+        }
+    }
+}
