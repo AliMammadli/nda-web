@@ -1,89 +1,79 @@
 .customers {
-  background: url(../../assets/images/bg-2.png) no-repeat center center fixed;
-  background-size: cover;
-  min-height: auto;
-  position: relative;
-
-  &_people {
-    p {
-      font-size: 1.6rem;
-      margin-bottom: 1.6rem;
-    }
-
-    .carousel {
-      margin-top: 4rem;
-      @include atMedium {
-        margin-top: 0.5rem;
-      }
-    }
-
-    .carousel-indicators {
-      @include atSmall {
-        justify-content: flex-start;
-      }
-
-      justify-content: flex-end;
-      margin: 0;
-
-      button {
-        background-color: #b3c8ec;
-        height: 7px;
-        width: 15px;
-        border: none;
-        border-radius: 5px !important;
-        margin-right: 8px;
-      }
-
-      button.active {
-        background-color: $primary;
-        width: 60px;
-      }
-    }
-
-    .carousel-item {
-      img {
-        margin-bottom: 2.4rem;
-      }
-    }
-  }
-
-  &_companies {
-    height: 255px;
-    background-color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    display: flex;
-  }
-
-  .row {
-    padding: 4rem 1rem 5rem;
-
-    @include atMedium {
-      padding: 18rem 0;
-    }
-  }
-
-  h2:nth-child(1) {
-    margin-bottom: 2.4rem;
-  }
-
-  .testimonial {
-    padding: 5rem 0 7rem;
+    background: url(../../assets/images/bg-2.png) no-repeat center center fixed;
+    background-size: cover;
+    min-height: auto;
     position: relative;
-    min-height: 420px;
-
-    &::before {
-      content: "\201D";
-      position: absolute;
-      top: 1rem;
-      font-size: 4.5rem;
-      font-weight: 700;
-      color: $primary;
+    &_people {
+        .h2 {
+            font-size: 3.5rem;
+        }
+        p {
+            font-size: 1.6rem;
+            margin-bottom: 1.6rem;
+        }
+        .carousel {
+            margin-top: 4rem;
+            @include atMedium {
+                margin-top: 0.5rem;
+            }
+        }
+        .carousel-indicators {
+            @include atSmall {
+                justify-content: flex-start;
+            }
+            justify-content: flex-end;
+            margin: 0;
+            button {
+                background-color: #b3c8ec;
+                height: 7px;
+                width: 15px;
+                border: none;
+                border-radius: 5px !important;
+                margin-right: 8px;
+            }
+            button.active {
+                background-color: $primary;
+                width: 60px;
+            }
+        }
+        .carousel-item {
+            cursor: pointer;
+            img {
+                margin-bottom: 2.4rem;
+            }
+        }
     }
-
-    @include media-breakpoint-up(lg) {
-      min-height: 316px;
+    &_companies {
+        height: 255px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        display: flex;
     }
-  }
+    .row {
+        padding: 4rem 1rem 5rem;
+        @include atMedium {
+            padding: 6rem 0;
+        }
+    }
+    h2:nth-child(1) {
+        margin-bottom: 2.4rem;
+    }
+    .testimonial {
+        padding: 5rem 0 7rem;
+        position: relative;
+        min-height: 420px;
+        &::before {
+            content: "\201D";
+            position: absolute;
+            top: 1rem;
+            font-size: 4.5rem;
+            font-weight: 700;
+            color: $primary;
+        }
+        @include media-breakpoint-up(lg) {
+            min-height: 316px;
+        }
+    }
 }

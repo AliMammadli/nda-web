@@ -1,142 +1,125 @@
 .card {
-  border: none;
-  margin-bottom: 1rem;
-  border-radius: 5px;
-  overflow: hidden;
-
-  &-img-top {
+    border: none;
+    // margin-bottom: 1rem;
     border-radius: 5px;
-  }
-
-  &-img-overlay {
-    background: url(../../assets/images/card-overlay.png) no-repeat center center;
-    background-size: cover;
-    height: 100%;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    text-decoration: none;
-    cursor: pointer;
-
-    h5 {
-      font-size: 2.5rem;
-      font-weight: 500;
-      margin: 0;
-
-      @include media-breakpoint-up(lg) {
-        font-size: 2.2rem;
-        font-weight: 700;
-        margin: 0;
-      }
+    &-img-top {
+        border-radius: 5px;
     }
-
-    p {
-      font-size: 1.4rem;
-      font-weight: 400;
+    &-img-overlay {
+        // background: url(../../assets/images/card-overlay.png) no-repeat center center;
+        // background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: white;
+        padding: 0.5rem 1.5rem;
+        text-decoration: none;
+        cursor: pointer;
+        h5 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin: 0;
+            text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+            @include media-breakpoint-up(lg) {
+                font-size: 2.2rem;
+                font-weight: 700;
+                margin: 0;
+            }
+        }
+        p {
+            font-size: 1.4rem;
+            font-weight: 400;
+            text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+        }
     }
-  }
-
-  &-body {
-    padding: 0;
-    padding-top: 2rem;
-    background-color: white;
-
-    &.card-body-transparent {
-      background: $lightest-blue;
+    &-body {
+        padding: 0;
+        padding-top: 2rem;
+        background-color: white;
+        &.card-body-transparent {
+            background: $lightest-blue;
+        }
     }
-  }
-
-  &-text {
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 2rem;
-    color: $gray;
-
-    @include media-breakpoint-up(lg) {
-      font-size: 1.4rem;
+    &-text {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 2rem;
+        color: $gray;
+        @include media-breakpoint-up(lg) {
+            font-size: 1.4rem;
+        }
     }
-  }
 }
 
 .team {
-  .card-img-overlay {
-    overflow: hidden;
-
-    h5 {
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin: 0;
-
-      @include media-breakpoint-up(lg) {
-        font-size: 2.2rem;
-        font-weight: 700;
-        margin: 0;
-      }
+    .card-img-overlay {
+        overflow: hidden;
+        h5 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 0;
+            @include media-breakpoint-up(lg) {
+                font-size: 2.2rem;
+                font-weight: 700;
+                margin: 0;
+            }
+        }
+        p {
+            font-size: 1.2rem;
+            font-weight: 400;
+            @include media-breakpoint-up(lg) {
+                font-size: 1.4rem;
+                font-weight: 400;
+            }
+        }
     }
-
-    p {
-      font-size: 1.2rem;
-      font-weight: 400;
-
-      @include media-breakpoint-up(lg) {
-        font-size: 1.4rem;
-        font-weight: 400;
-      }
-    }
-  }
 }
 
 .blog-content,
 .blogpost-content {
-  .card-img-overlay {
-    background: url(../../assets/images/blog-img-overlay.png) no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    color: white;
-    padding: 1.5rem 2.5rem;
-
-    h5 {
-      font-size: 1.6rem;
-      font-weight: 700;
-      margin: 0;
-
-      @include media-breakpoint-up(lg) {
-        font-size: 1.6em;
-        font-weight: 600;
-        margin: 0;
-      }
+    .card-img-overlay {
+        background: url(../../assets/images/blog-img-overlay.png) no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+        padding: 1.5rem 2.5rem;
+        h5 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin: 0;
+            @include media-breakpoint-up(lg) {
+                font-size: 1.6em;
+                font-weight: 600;
+                margin: 0;
+            }
+        }
+        p {
+            font-size: 1.2rem;
+            font-weight: 400;
+            @include media-breakpoint-up(lg) {
+                font-size: 1.4rem;
+                font-weight: 400;
+            }
+        }
     }
-
-    p {
-      font-size: 1.2rem;
-      font-weight: 400;
-
-      @include media-breakpoint-up(lg) {
-        font-size: 1.4rem;
-        font-weight: 400;
-      }
+    .card-img-overlay-large {
+        background: url(../../assets/images/blog-img-large-overlay.png) no-repeat center center !important;
+        background-size: cover !important;
+        border: none !important;
+        height: 100% !important;
+        border-radius: 5px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+        padding: 1.5rem 2.5rem;
     }
-  }
-
-  .card-img-overlay-large {
-    background: url(../../assets/images/blog-img-large-overlay.png) no-repeat center
-      center !important;
-    background-size: cover !important;
-    border: none !important;
-    height: 100% !important;
-    border-radius: 5px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    color: white;
-    padding: 1.5rem 2.5rem;
-  }
 }

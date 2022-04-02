@@ -1,0 +1,77 @@
+.consulting-capabilities {
+  .tab-content {
+    background-color: #fff;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $navy;
+    margin-top: 6rem;
+    padding: 0 1.5rem;
+
+    @include media-breakpoint-up(xl) {
+      padding: 0;
+    }
+  }
+
+  .nav-pills {
+    padding: 4rem 1.5rem 6rem;
+
+    @include media-breakpoint-up(xl) {
+      padding: 4rem 0 6rem;
+    }
+
+    .nav-link {
+      padding: 0 !important;
+    }
+
+    .card {
+      border: none;
+      border-top: 7px solid transparent;
+      border-radius: 5px;
+      padding: 4rem 2rem !important;
+      position: relative;
+      height: 100%;
+      background-color: #fff;
+
+      transition: top 0.2s ease-in 0s;
+      cursor: pointer;
+      top: 0;
+
+      &:hover,
+      &.active {
+        border-top: 7px solid $primary;
+        top: -10px;
+      }
+
+      img {
+        vertical-align: center;
+      }
+
+      .active {
+        background-color: none !important;
+      }
+    }
+
+    .card-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: $primary;
+      margin: 2rem 0 1.8rem;
+    }
+
+    .card-body {
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: black;
+      padding-bottom: 0.5rem;
+
+      .card-text {
+        color: black;
+        font-size: 1.8rem !important;
+        font-weight: 300;
+      }
+    }
+  }
+}

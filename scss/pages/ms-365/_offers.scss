@@ -1,75 +1,61 @@
 .offers {
     height: auto;
-    background: none;
+    background: white;
     padding-bottom: 4rem;
-
     @include media-breakpoint-up(md) {
         padding-bottom: 6rem;
     }
-
     .label {
         font-weight: 600;
         line-height: 3.4rem;
         margin-bottom: 2rem;
-
         @include media-breakpoint-up(md) {
             font-size: 2rem;
             line-height: 2.8rem;
             margin-bottom: 2.5rem;
         }
     }
-
     .offer {
         flex: 1;
         border-radius: 0.5rem;
         background-image: linear-gradient(90deg, #F0F0F0 0%, #FBFBFB 100%);
         padding: 1.5rem;
-
         @include media-breakpoint-up(md) {
             background-image: linear-gradient(270deg, #F0F0F0 0%, #FBFBFB 100%);
             padding: 3rem;
         }
-
         h1 {
             font-size: 5rem;
             font-weight: 600;
             color: rgba(59, 74, 158, 0.3);
-
             @include media-breakpoint-up(md) {
                 font-size: 7rem;
                 line-height: 6.2rem;
                 margin-right: 2.6rem;
             }
         }
-
         p {
             font-size: 1.4rem;
             font-weight: 300;
             line-height: 2.6rem;
             color: $black;
             margin: 0;
-
             @include media-breakpoint-up(md) {
                 font-size: 1.6rem;
             }
         }
     }
-
     .offer-m {
         background-image: linear-gradient(90deg, #F0F0F0 0%, #FBFBFB 100%);
-
         @include media-breakpoint-down(md) {
             margin-bottom: 1rem;
         }
-
         @include media-breakpoint-up(md) {
             margin-right: 2rem;
         }
     }
-
     .space {
         margin-top: 1rem;
-
         @include media-breakpoint-up(md) {
             margin-top: 2rem;
         }

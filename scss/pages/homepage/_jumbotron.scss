@@ -1,72 +1,63 @@
 .jumbotron {
-  display: flex;
-  min-height: 600px !important;
-  height: 100vh !important;
-  background: url("../../assets/images/bg-home.jpg") no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
-  color: $white;
-
-  h1 {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 2.5rem;
-    text-align: center;
-
+    display: flex;
+    min-height: 600px !important;
+    height: 100vh !important;
+    background: url("../../assets/images/bg-home-mobile.png") no-repeat top center fixed;
     @include atSmall {
-      font-size: 4rem;
-      text-align: left;
+        background: url("../../assets/images/bg-home-2.jpg") no-repeat top center fixed;
+        background-size: cover;
     }
-
-    @include atMedium {
-      font-size: 4.5rem;
-      text-align: left;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    color: $white;
+    h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-align: center;
+        @include atSmall {
+            font-size: 4rem;
+            text-align: left;
+        }
+        @include atMedium {
+            font-size: 4.5rem;
+            text-align: left;
+        }
     }
-  }
-
-  p {
-    font-size: 1.6rem;
-    margin-bottom: 4rem;
-  }
-
-  .row {
-    height: 100vh;
-    min-height: 600px;
-    padding: 13rem 1rem 6rem;
-    align-items: center;
-
-    @include atMedium {
-      padding: 8rem 0;
+    p {
+        font-size: 1.6rem;
+        margin-bottom: 4rem;
     }
-  }
-
-  .social-icons {
-    text-align: center;
-
-    @include atLarge {
-      text-align: right;
+    .row {
+        height: 100vh;
+        min-height: 600px;
+        padding: 13rem 1rem 6rem;
+        align-items: center;
+        @include atMedium {
+            padding: 8rem 0;
+        }
     }
-
-    a {
-      display: inline-block;
-      color: $white;
-
-      .fa-lg {
-        font-size: 2.1rem !important;
-      }
-
-      .fa-linkedin:hover {
-        color: #0077b5;
-      }
-
-      .fa-facebook-square:hover {
-        color: #1877f2;
-      }
-
-      .fa-youtube:hover {
-        color: #ff0000;
-      }
+    .social-icons {
+        text-align: center;
+        @include atLarge {
+            text-align: right;
+        }
+        a {
+            display: inline-block;
+            color: $white;
+            .fa-lg {
+                font-size: 2.1rem !important;
+            }
+            .fa-linkedin:hover {
+                color: #0077b5;
+            }
+            .fa-facebook-square:hover {
+                color: #1877f2;
+            }
+            .fa-youtube:hover {
+                color: #ff0000;
+            }
+        }
     }
-  }
 }

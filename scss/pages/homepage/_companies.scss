@@ -1,66 +1,56 @@
 .companies {
-  height: 10rem;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-  position: relative;
-
-  @include atSmall {
-    height: 20rem;
-    padding-top: 20rem;
-    padding-bottom: 20rem;
-  }
-
-  .owl-item {
-    width: 8rem !important;
-
-    @include atLarge {
-      width: 16rem !important;
-    }
-  }
-
-  .owl-carousel {
-    @include atSmall {
-      padding: 0 12rem;
-    }
-
-    padding: 0 1rem;
-  }
-
-  .owl-stage {
-    height: 6rem;
+    height: 31.4rem;
+    // padding-top: 10rem;
+    // padding-bottom: 10rem;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    overflow-y: hidden;
-  }
-
-  .owl-custom-prev,
-  .owl-custom-next {
-    position: absolute;
-    width: 2.6rem;
-    bottom: 17rem;
-    z-index: 99;
-    cursor: pointer;
-    display: none;
-
-    @include atSmall {
-      display: block;
+    // @include atSmall {
+    //     height: 20rem;
+    //     padding-top: 20rem;
+    //     padding-bottom: 20rem;
+    // }
+    .owl-item {
+        // width: 8rem !important;
+        @include atLarge {
+            width: 16rem !important;
+        }
     }
-
-    @include atMedium {
-      display: block;
+    .owl-carousel {
+        @include atSmall {
+            padding: 0 12rem;
+        }
+        padding: 0 1rem;
     }
-
-    @include atLarge {
-      display: block;
+    .owl-stage {
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-y: hidden;
     }
-  }
-
-  .owl-custom-prev {
-    left: 0;
-  }
-
-  .owl-custom-next {
-    right: 0;
-  }
+    .owl-custom-prev,
+    .owl-custom-next {
+        position: absolute;
+        width: 2.6rem;
+        bottom: 15.5rem;
+        z-index: 99;
+        cursor: pointer;
+        display: none;
+        @include atSmall {
+            display: block;
+        }
+        @include atMedium {
+            display: block;
+        }
+        @include atLarge {
+            display: block;
+        }
+    }
+    .owl-custom-prev {
+        left: 0;
+    }
+    .owl-custom-next {
+        right: 0;
+    }
 }

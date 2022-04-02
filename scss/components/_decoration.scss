@@ -50,7 +50,7 @@
 
         p,
         h5 {
-            color: $gray;
+            color: $dark-navy;
             font-weight: 300;
             font-size: 1.4rem;
             margin-bottom: 2rem;
@@ -98,10 +98,13 @@
 
             &.active,
             &:active,
-            &:focus,
-            &:hover {
+            &:focus {
                 color: $dark-navy;
                 font-weight: 600;
+            }
+
+            &:hover{
+                color: $dark-navy;
             }
         }
 
@@ -110,4 +113,12 @@
         }
     }
     
+}
+
+header .transparent-bg{
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #312a9188;
 }
