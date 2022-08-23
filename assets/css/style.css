@@ -10779,7 +10779,7 @@ textarea.form-control-lg {
   }
 }
 h2, .h2 {
-  color: #3b4a9e;
+  color: #F8C603;
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -10827,24 +10827,24 @@ a {
 }
 
 .btn-outline-navy {
-  border: 1px solid #3b4a9e;
+  border: 1px solid #F8C603;
   font-weight: 500;
-  color: #3b4a9e;
-  box-shadow: inset 0px 0px 0px #3b4a9e;
+  color: #F8C603;
+  box-shadow: inset 0px 0px 0px #F8C603;
   transition: box-shadow 0.8s !important;
 }
 
 .btn-outline-navy:hover,
 .btn-outline-navy:active,
 .btn-outline-navy:focus {
-  box-shadow: inset 520px 0px 0px #3b4a9e;
+  box-shadow: inset 520px 0px 0px #F8C603;
   color: white;
 }
 @media (min-width: 630px) {
   .btn-outline-navy:hover,
 .btn-outline-navy:active,
 .btn-outline-navy:focus {
-    box-shadow: inset 300px 0px 0px #3b4a9e;
+    box-shadow: inset 300px 0px 0px #F8C603;
   }
 }
 
@@ -10860,7 +10860,7 @@ a {
 .btn-outline-white:active,
 .btn-outline-white:focus {
   box-shadow: inset 520px 0px 0px white;
-  color: #3b4a9e !important;
+  color: #F8C603 !important;
 }
 @media (min-width: 630px) {
   .btn-outline-white:hover,
@@ -10871,34 +10871,34 @@ a {
 }
 
 .btn-outline-dark-navy {
-  border: 1px solid #272d51;
+  border: 1px solid #b49002;
   font-weight: 500;
-  color: #272d51;
-  box-shadow: inset 0px 0px 0px #272d51;
+  color: #b49002;
+  box-shadow: inset 0px 0px 0px #b49002;
   transition: box-shadow 0.8s !important;
 }
 
 .btn-outline-dark-navy:hover,
 .btn-outline-dark-navy:active,
 .btn-outline-dark-navy:focus {
-  box-shadow: inset 520px 0px 0px #272d51;
+  box-shadow: inset 520px 0px 0px #b49002;
   color: white;
 }
 @media (min-width: 630px) {
   .btn-outline-dark-navy:hover,
 .btn-outline-dark-navy:active,
 .btn-outline-dark-navy:focus {
-    box-shadow: inset 300px 0px 0px #272d51;
+    box-shadow: inset 300px 0px 0px #b49002;
   }
 }
 
 .btn-navy {
-  background-color: #3b4a9e;
+  background-color: #F8C603;
   color: white;
-  border: 1px solid #3b4a9e;
+  border: 1px solid #F8C603;
 }
 .btn-navy:hover, .btn-navy:focus, .btn-navy:active {
-  background-color: #2d3979;
+  background-color: #c69e02;
   color: white;
 }
 
@@ -10920,6 +10920,9 @@ a {
   background-image: url("../../assets/images/navbar-toggler.svg") !important;
   font-size: 2rem;
 }
+.navbar .navbar-brand img {
+  height: 5rem;
+}
 .navbar .nav-item {
   margin-left: 0;
   font-weight: 500;
@@ -10930,7 +10933,7 @@ a {
   }
 }
 .navbar .nav-item a {
-  color: #3b4a9e !important;
+  color: #F8C603 !important;
   font-family: "Ubuntu";
   position: relative;
   font-size: 1.8rem;
@@ -10949,7 +10952,7 @@ a {
   }
   .navbar .nav-item a.active:after {
     content: "";
-    background-color: #3b4a9e;
+    background-color: #F8C603;
     bottom: 0;
     display: block;
     height: 6px;
@@ -11024,7 +11027,7 @@ a {
 }
 .navbar .social-icons a {
   display: inline-block;
-  color: #3b4a9e;
+  color: #F8C603;
 }
 .navbar .social-icons a .fa-lg {
   font-size: 2.1rem !important;
@@ -11040,7 +11043,7 @@ a {
 }
 
 .footer h4, .footer .h4 {
-  color: #3b4a9e;
+  color: #F8C603;
   font-weight: 700;
   font-size: 2rem;
   margin-bottom: 1.4rem;
@@ -11056,7 +11059,7 @@ a {
   font-weight: 300;
   font-size: 1.8rem;
   padding-left: 0;
-  color: #272d51;
+  color: #b49002;
   text-decoration: none;
   margin: 0;
 }
@@ -11087,7 +11090,7 @@ a {
   height: 7px;
   margin: 0;
   opacity: 1;
-  background: #3b4a9e;
+  background: #F8C603;
   background: linear-gradient(to right, #c5e1ff 0%, #5381b3 70%, #c5e1ff 100%);
 }
 @media (min-width: 630px) {
@@ -11101,7 +11104,7 @@ a {
   position: relative;
 }
 .footer .dropdown .btn-dropdown-outline {
-  border: 1px solid #272d51;
+  border: 1px solid #b49002;
   border-radius: 5px;
   font-size: 1.6rem;
   padding: 1.2rem;
@@ -11113,7 +11116,7 @@ a {
   position: absolute;
   width: auto;
   border-radius: 5px;
-  border: 1px solid #272d51;
+  border: 1px solid #b49002;
 }
 .footer .dropdown-item {
   padding: 1rem 1.2rem;
@@ -11135,7 +11138,7 @@ a {
 }
 .footer .social-icons a {
   display: inline-block;
-  color: #272d51;
+  color: #b49002;
 }
 .footer .social-icons a:first-child {
   padding-left: 2rem;
@@ -11155,7 +11158,7 @@ a {
 .footer .copyright {
   font-size: 1rem;
   font-weight: 300;
-  color: #272d51;
+  color: #b49002;
   text-align: center;
 }
 @media (min-width: 1024px) {
@@ -11315,7 +11318,7 @@ a {
   height: 7px;
   margin: 0;
   opacity: 1;
-  background: #3b4a9e;
+  background: #F8C603;
   background: linear-gradient(to right, #c5e1ff 0%, #5381b3 70%, #c5e1ff 100%);
 }
 @media (min-width: 630px) {
@@ -11341,7 +11344,7 @@ a {
   margin-top: 5rem;
 }
 .brochure-nav a {
-  color: #3b4a9e;
+  color: #F8C603;
   text-decoration: none;
 }
 .brochure-nav b {
@@ -11360,7 +11363,7 @@ a {
 .brochure-nav .tab-content p,
 .brochure-nav .tab-content h5,
 .brochure-nav .tab-content .h5 {
-  color: #272d51;
+  color: #b49002;
   font-weight: 300;
   font-size: 1.4rem;
   margin-bottom: 2rem;
@@ -11389,7 +11392,7 @@ a {
 }
 .brochure-nav .nav-pills .active {
   background-color: transparent !important;
-  border-left: 3px solid #272d51;
+  border-left: 3px solid #b49002;
   position: relative;
   left: -3px;
 }
@@ -11406,11 +11409,11 @@ a {
   }
 }
 .brochure-nav .nav-pills .nav-link.active, .brochure-nav .nav-pills .nav-link:active, .brochure-nav .nav-pills .nav-link:focus {
-  color: #272d51;
+  color: #b49002;
   font-weight: 600;
 }
 .brochure-nav .nav-pills .nav-link:hover {
-  color: #272d51;
+  color: #b49002;
 }
 .brochure-nav .nav-pills .nav-link:not(:last-child) {
   margin-bottom: 2rem;
@@ -11428,7 +11431,7 @@ header .transparent-bg {
   display: flex;
   min-height: 600px !important;
   height: 100vh !important;
-  background: url("../../assets/images/bg-home-mobile.png") no-repeat top center fixed;
+  background: url("../../assets/images/bg-home-mobile.jpg") no-repeat top center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
@@ -11588,7 +11591,7 @@ header .transparent-bg {
   top: 0;
 }
 .services .card:hover {
-  border-top: 7px solid #3b4a9e;
+  border-top: 7px solid #F8C603;
   top: -10px;
 }
 .services .card img {
@@ -11597,13 +11600,16 @@ header .transparent-bg {
 .services .card-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #3b4a9e;
+  color: #F8C603;
   margin: 2rem 0 1rem;
 }
 .services .card-body {
   font-size: 1.6rem;
   text-decoration: none;
   color: black;
+}
+.services .card-body img {
+  height: 5rem;
 }
 .services_cards {
   margin-top: 6rem;
@@ -11651,7 +11657,7 @@ header .transparent-bg {
   margin-right: 8px;
 }
 .customers_people .carousel-indicators button.active {
-  background-color: #3b4a9e;
+  background-color: #F8C603;
   width: 60px;
 }
 .customers_people .carousel-item {
@@ -11690,7 +11696,7 @@ header .transparent-bg {
   top: 1rem;
   font-size: 4.5rem;
   font-weight: 700;
-  color: #3b4a9e;
+  color: #F8C603;
 }
 @media (min-width: 992px) {
   .customers .testimonial {
@@ -11761,8 +11767,8 @@ header .transparent-bg {
 .powerbi {
   height: auto;
   background: #e3a405;
-  background: linear-gradient(0deg, #e3a405 0%, #ffd262 100%);
-  color: #272d51;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #ffd143 0%, #ff9153 90%);
+  color: #111;
 }
 @media (min-width: 630px) {
   .powerbi {
@@ -11818,10 +11824,70 @@ header .transparent-bg {
   }
 }
 
+.powerbi2 {
+  height: auto;
+  background: #5d34ec;
+  background-image: linear-gradient(109.6deg, #3ea1db 11.2%, #5d34ec 100.2%);
+  color: #fff;
+}
+@media (min-width: 630px) {
+  .powerbi2 {
+    min-height: 72vh;
+  }
+}
+.powerbi2 .row {
+  padding: 3rem 1rem 0;
+}
+@media (min-width: 630px) {
+  .powerbi2 .row {
+    padding: 8rem 0;
+  }
+}
+.powerbi2__text {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.powerbi2 h2, .powerbi2 .h2 {
+  color: inherit;
+  margin-bottom: 2.4rem;
+}
+@media (min-width: 1024px) {
+  .powerbi2 h2, .powerbi2 .h2 {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 630px) {
+  .powerbi2 h2, .powerbi2 .h2 {
+    font-size: 3.5rem;
+  }
+}
+.powerbi2 p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+@media (min-width: 630px) {
+  .powerbi2 p {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 400;
+  }
+}
+.powerbi2 a:nth-child(2):hover, .powerbi2 a:nth-child(2):focus, .powerbi2 a:nth-child(2):active {
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .powerbi2__image {
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .warehouse {
   height: auto;
-  background: #3f4c98;
-  background: linear-gradient(0deg, #3f4c98 0%, #6372c7 100%);
+  background: #0eae57;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #0eae57 0%, #0c7475 90%);
   color: white;
 }
 @media (min-width: 630px) {
@@ -11870,12 +11936,12 @@ header .transparent-bg {
 }
 .warehouse .btn-white {
   background-color: white;
-  color: #3b4a9e;
+  color: #F8C603;
   border: 1px solid white;
 }
 .warehouse .btn-white:hover, .warehouse .btn-white:focus, .warehouse .btn-white:active {
   background-color: #e6e6e6;
-  color: #3b4a9e;
+  color: #F8C603;
 }
 .warehouse a {
   color: inherit;
@@ -11906,7 +11972,7 @@ header .transparent-bg {
   background-color: #f5f7ff;
   padding: 5rem 1rem;
   font-size: 1.8rem;
-  color: #272d51;
+  color: #b49002;
 }
 @media (min-width: 1200px) {
   .business {
@@ -12004,10 +12070,10 @@ header .transparent-bg {
 }
 .business .nav-pills .nav-link.active {
   font-weight: 600;
-  color: #272d51;
+  color: #b49002;
 }
 .business .nav-pills .nav-link:active, .business .nav-pills .nav-link:focus, .business .nav-pills .nav-link:hover {
-  color: #272d51;
+  color: #b49002;
 }
 .business .active {
   background-color: transparent !important;
@@ -12044,7 +12110,7 @@ header .transparent-bg {
   }
 }
 .contact h2, .contact .h2 {
-  color: #272d51;
+  color: #b49002;
   margin-bottom: 2rem;
   font-size: 2.5rem;
   font-weight: 300;
@@ -12125,7 +12191,7 @@ header .transparent-bg {
   background: white;
 }
 .view-samples h2, .view-samples .h2 {
-  color: #3b4a9e;
+  color: #F8C603;
 }
 
 .about-us h1, .about-us .h1 {
@@ -12257,7 +12323,7 @@ header .transparent-bg {
 .vision .company-vision,
 .vision .mission-statement {
   padding: 4rem 2.5rem 3rem;
-  background: #3b4a9e;
+  background: #F8C603;
   border-radius: 5px;
 }
 @media (min-width: 992px) {
@@ -12744,7 +12810,7 @@ header .transparent-bg {
 }
 .blogpost-content__text {
   font-size: 1.6rem;
-  color: #272d51;
+  color: #b49002;
   line-height: 2.2rem;
 }
 .blogpost-content__text p {
@@ -12902,17 +12968,17 @@ header .transparent-bg {
   outline: none;
   background: none;
   border: none;
-  border-bottom: 1px solid #3b4a9e;
+  border-bottom: 1px solid #F8C603;
   border-radius: 0;
   padding: 2rem 0 1rem;
 }
 .contact-form label {
   font-size: 1.2rem;
-  color: #272d51;
+  color: #b49002;
   font-weight: 400;
 }
 .contact-form ::placeholder {
-  color: #272d51;
+  color: #b49002;
 }
 
 .contact-details {
@@ -12926,7 +12992,7 @@ header .transparent-bg {
 .contact-details h5, .contact-details .h5 {
   font-size: 1.6rem;
   font-weight: 600;
-  color: #3b4a9e;
+  color: #F8C603;
   margin-bottom: 1.5rem;
 }
 .contact-details div {
@@ -12936,7 +13002,7 @@ header .transparent-bg {
 .contact-details a {
   font-size: 1.6rem;
   font-weight: 400;
-  color: #272d51;
+  color: #b49002;
   text-decoration: none;
   margin-bottom: 0;
 }
@@ -13072,9 +13138,9 @@ header .transparent-bg {
   outline: none;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid #3b4a9e;
+  border-bottom: 1px solid #F8C603;
   border-radius: 0;
-  border-bottom: 1px solid #3b4a9e;
+  border-bottom: 1px solid #F8C603;
   background: none;
   padding: 2rem 0 1rem;
   margin-bottom: 4rem;
@@ -13087,11 +13153,11 @@ header .transparent-bg {
 }
 .quote-form label {
   font-size: 1.2rem;
-  color: #272d51;
+  color: #b49002;
   font-weight: 400;
 }
 .quote-form ::placeholder {
-  color: #272d51;
+  color: #b49002;
 }
 
 .quote-details {
@@ -13104,7 +13170,7 @@ header .transparent-bg {
 }
 .quote-details p {
   font-size: 1.4rem;
-  color: #272d51;
+  color: #b49002;
   line-height: 2.6rem;
   margin-bottom: 2rem;
 }
@@ -13239,7 +13305,7 @@ header .transparent-bg {
 .mobile-app {
   height: auto;
   background: white;
-  color: #272d51;
+  color: #b49002;
   padding: 7.2rem 0 7rem;
 }
 @media (min-width: 768px) {
@@ -13276,7 +13342,7 @@ header .transparent-bg {
 
 .enterprise-dev {
   height: auto;
-  color: #272d51;
+  color: #b49002;
   padding-bottom: 7rem;
 }
 .enterprise-dev h2, .enterprise-dev .h2 {
@@ -13313,7 +13379,7 @@ header .transparent-bg {
 
 .web-app {
   height: auto;
-  color: #272d51;
+  color: #b49002;
   padding-bottom: 7rem;
 }
 .web-app h2, .web-app .h2 {
@@ -13467,7 +13533,7 @@ header .transparent-bg {
 .implementation {
   height: auto;
   background: white;
-  color: #272d51;
+  color: #b49002;
   padding: 7.2rem 0 7rem;
 }
 @media (min-width: 768px) {
@@ -13504,7 +13570,7 @@ header .transparent-bg {
 
 .consulting {
   height: auto;
-  color: #272d51;
+  color: #b49002;
   padding-bottom: 7rem;
 }
 .consulting h2, .consulting .h2 {
@@ -13546,13 +13612,13 @@ header .transparent-bg {
   height: auto;
   background: #e3a405;
   background: linear-gradient(0deg, #e3a405 0%, #ffd262 100%);
-  color: #272d51;
+  color: #b49002;
   padding-bottom: 7rem;
 }
 .why-powerbi h2, .why-powerbi .h2 {
   font-size: 2rem;
   margin: 3rem 0;
-  color: #272d51;
+  color: #b49002;
 }
 @media (min-width: 768px) {
   .why-powerbi h2, .why-powerbi .h2 {
@@ -13570,7 +13636,7 @@ header .transparent-bg {
 .why-powerbi p,
 .why-powerbi li {
   font-size: 1.4rem;
-  color: #272d51;
+  color: #b49002;
   line-height: 2.6rem;
 }
 @media (min-width: 992px) {
@@ -13594,7 +13660,7 @@ header .transparent-bg {
 .data-sources {
   height: auto;
   background-color: white;
-  color: #272d51;
+  color: #b49002;
   padding-bottom: 7rem;
 }
 .data-sources .row {
@@ -13745,7 +13811,7 @@ header .transparent-bg {
 .education {
   height: auto;
   background: white;
-  color: #272d51;
+  color: #b49002;
   padding: 7.2rem 0 7rem;
 }
 @media (min-width: 768px) {
@@ -14014,7 +14080,7 @@ header .transparent-bg {
 
 .definition {
   height: auto;
-  color: #272d51;
+  color: #b49002;
   padding-bottom: 7rem;
 }
 .definition h2, .definition .h2 {
@@ -14102,7 +14168,7 @@ header .transparent-bg {
 .edw {
   height: auto;
   background-color: white;
-  color: #3b4a9e;
+  color: #F8C603;
   padding-bottom: 7rem;
 }
 .edw .row {
@@ -14249,7 +14315,7 @@ header .transparent-bg {
 
 .ai-dev {
   height: auto;
-  color: #272d51;
+  color: #b49002;
   padding: 7.2rem 0 7rem;
 }
 @media (min-width: 768px) {
@@ -14294,7 +14360,7 @@ header .transparent-bg {
 .iot {
   height: auto;
   background-color: #F8F8F8;
-  color: #272d51;
+  color: #b49002;
   padding-bottom: 7rem;
 }
 .iot h2, .iot .h2 {
@@ -14331,7 +14397,7 @@ header .transparent-bg {
 
 .iot-business {
   height: auto;
-  color: #272d51;
+  color: #b49002;
   padding-bottom: 7rem;
 }
 .iot-business h2, .iot-business .h2 {
@@ -14369,7 +14435,7 @@ header .transparent-bg {
 .benefits {
   height: auto;
   background: white;
-  color: #272d51;
+  color: #b49002;
   padding-bottom: 4rem;
 }
 @media (min-width: 768px) {
@@ -14412,7 +14478,7 @@ header .transparent-bg {
   width: 195px;
   height: 54px;
   border-radius: 0.5rem;
-  background-color: #3b4a9e;
+  background-color: #F8C603;
   color: #fff;
   margin-bottom: 1rem;
   justify-content: center;
@@ -14448,7 +14514,7 @@ header .transparent-bg {
   }
 }
 .benefits .body h1, .benefits .body .h1 {
-  color: #3b4a9e;
+  color: #F8C603;
   margin-bottom: 2.2rem;
 }
 @media (max-width: 767.98px) {
@@ -14498,7 +14564,7 @@ header .transparent-bg {
   }
 }
 .cloud .header h3, .cloud .header .h3 {
-  color: #3b4a9e;
+  color: #F8C603;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -14573,7 +14639,7 @@ header .transparent-bg {
 .help .header h1, .help .header .h1 {
   font-size: 3rem;
   font-weight: 700;
-  color: #3b4a9e;
+  color: #F8C603;
 }
 .help .bg-img {
   display: flex;
@@ -14660,7 +14726,7 @@ header .transparent-bg {
   width: 243px;
   height: 54px;
   border-radius: 0.5rem;
-  background-color: #3b4a9e;
+  background-color: #F8C603;
   color: #fff;
   margin-bottom: 1.3rem;
   justify-content: center;
@@ -15059,7 +15125,7 @@ header .transparent-bg {
 }
 .product p span {
   font-weight: 700;
-  color: #3b4a9e;
+  color: #F8C603;
 }
 .product img {
   width: 53.8rem;
@@ -15130,7 +15196,7 @@ header .transparent-bg {
 .product .products-benefits .item-cap {
   min-width: 0.5rem;
   height: 5.6rem;
-  background-color: #3b4a9e;
+  background-color: #F8C603;
   border-radius: 0.3rem;
 }
 .product .products-benefits p {
@@ -15145,9 +15211,12 @@ header .transparent-bg {
   .product .products-benefits p {
     font-size: 1.2rem;
     line-height: 2.2rem;
+  }
+}
+
 .analytics {
   height: auto;
-  color: #272d51;
+  color: #b49002;
 }
 .analytics__text {
   font-size: 2rem;
@@ -15170,7 +15239,7 @@ header .transparent-bg {
 }
 .analytics__header {
   padding: 0.5rem 1rem;
-  background-color: #3b4a9e;
+  background-color: #F8C603;
   color: white;
   display: inline-block;
   margin-right: 2rem;
@@ -15194,7 +15263,7 @@ header .transparent-bg {
 }
 .analytics__sub-header {
   font-size: 2.5rem;
-  color: #272d51;
+  color: #b49002;
   font-weight: 600;
 }
 @media (min-width: 1200px) {
@@ -15265,7 +15334,7 @@ header .transparent-bg {
 .consulting-capabilities h3, .consulting-capabilities .h3 {
   font-size: 2rem;
   font-weight: 600;
-  color: #3b4a9e;
+  color: #F8C603;
   margin-top: 6rem;
   padding: 0 1.5rem;
 }
@@ -15298,7 +15367,7 @@ header .transparent-bg {
   top: 0;
 }
 .consulting-capabilities .nav-pills .card:hover, .consulting-capabilities .nav-pills .card.active {
-  border-top: 7px solid #3b4a9e;
+  border-top: 7px solid #F8C603;
   top: -10px;
 }
 .consulting-capabilities .nav-pills .card img {
@@ -15310,7 +15379,7 @@ header .transparent-bg {
 .consulting-capabilities .nav-pills .card-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #3b4a9e;
+  color: #F8C603;
   margin: 2rem 0 1.8rem;
 }
 .consulting-capabilities .nav-pills .card-body {
@@ -15457,12 +15526,12 @@ header .transparent-bg {
 .dg-services-nav .tab-pane p,
 .dg-services-nav .tab-pane h5,
 .dg-services-nav .tab-pane .h5 {
-  color: #272d51 !important;
+  color: #b49002 !important;
 }
 
 .digital-strategy {
   height: auto;
-  color: #272d51;
+  color: #b49002;
 }
 .digital-strategy__header, .digital-strategy__sub-header {
   font-size: 2.5rem;
@@ -15471,7 +15540,7 @@ header .transparent-bg {
 }
 .digital-strategy__header {
   padding: 0.5rem 1rem;
-  background-color: #3b4a9e;
+  background-color: #F8C603;
   color: white;
   display: inline-block;
   margin-right: 2rem;
@@ -15495,7 +15564,7 @@ header .transparent-bg {
 }
 .digital-strategy__sub-header {
   font-size: 2.5rem;
-  color: #272d51;
+  color: #b49002;
   font-weight: 600;
 }
 @media (min-width: 992px) {
@@ -15546,7 +15615,7 @@ header .transparent-bg {
 
 .go-digital {
   height: auto;
-  color: #272d51;
+  color: #b49002;
 }
 .go-digital__header, .go-digital__sub-header {
   font-size: 2.5rem;
@@ -15556,7 +15625,7 @@ header .transparent-bg {
 .go-digital__header {
   padding: 0.5rem 1rem;
   width: 33rem;
-  background-color: #3b4a9e;
+  background-color: #F8C603;
   color: white;
 }
 @media (min-width: 992px) {
@@ -15566,7 +15635,7 @@ header .transparent-bg {
 }
 .go-digital__sub-header {
   font-size: 2.5rem;
-  color: #272d51;
+  color: #b49002;
   font-weight: 600;
 }
 @media (min-width: 992px) {
@@ -15613,7 +15682,7 @@ header .transparent-bg {
 
 .resourcing {
   height: auto;
-  color: #272d51;
+  color: #b49002;
 }
 .resourcing__header, .resourcing__sub-header {
   font-size: 2.5rem;
@@ -15622,7 +15691,7 @@ header .transparent-bg {
 }
 .resourcing__header {
   padding: 0.5rem 1rem;
-  background-color: #3b4a9e;
+  background-color: #F8C603;
   color: white;
   display: inline-block;
   margin-right: 2rem;
@@ -15647,7 +15716,7 @@ header .transparent-bg {
 }
 .resourcing__sub-header {
   font-size: 2.5rem;
-  color: #272d51;
+  color: #b49002;
   font-weight: 600;
 }
 @media (min-width: 992px) {
@@ -15657,7 +15726,7 @@ header .transparent-bg {
 }
 .resourcing__header-2 {
   font-size: 3rem;
-  color: #272d51;
+  color: #b49002;
   margin: 7rem 0 4rem;
 }
 @media (min-width: 768px) {

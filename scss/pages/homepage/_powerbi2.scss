@@ -1,11 +1,11 @@
-.powerbi {
+.powerbi2 {
     @include atSmall {
         min-height: 72vh;
     }
     height: auto;
-    background: rgb(227, 164, 5);
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
-    color: #111;
+    background: rgba(93,52,236,1);
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+    color: #fff;
     .row {
         @include atSmall {
             padding: 8rem 0;
@@ -39,7 +39,7 @@
         &:hover,
         &:focus,
         &:active {
-            color: inherit;
+            color: #fff;
             // margin-left: 2px;
         }
     }

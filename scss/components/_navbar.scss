@@ -20,6 +20,12 @@
     }
   }
 
+  .navbar-brand {
+    img {
+        height: 5rem;
+    }
+  }
+
   .nav-item {
     @include atMedium {
       margin-left: 3.2rem;
