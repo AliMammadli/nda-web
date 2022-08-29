@@ -10871,24 +10871,24 @@ a {
 }
 
 .btn-outline-dark-navy {
-  border: 1px solid #b49002;
+  border: 1px solid #272d51;
   font-weight: 500;
-  color: #b49002;
-  box-shadow: inset 0px 0px 0px #b49002;
+  color: #272d51;
+  box-shadow: inset 0px 0px 0px #272d51;
   transition: box-shadow 0.8s !important;
 }
 
 .btn-outline-dark-navy:hover,
 .btn-outline-dark-navy:active,
 .btn-outline-dark-navy:focus {
-  box-shadow: inset 520px 0px 0px #b49002;
+  box-shadow: inset 520px 0px 0px #272d51;
   color: white;
 }
 @media (min-width: 630px) {
   .btn-outline-dark-navy:hover,
 .btn-outline-dark-navy:active,
 .btn-outline-dark-navy:focus {
-    box-shadow: inset 300px 0px 0px #b49002;
+    box-shadow: inset 300px 0px 0px #272d51;
   }
 }
 
@@ -11059,7 +11059,7 @@ a {
   font-weight: 300;
   font-size: 1.8rem;
   padding-left: 0;
-  color: #b49002;
+  color: #272d51;
   text-decoration: none;
   margin: 0;
 }
@@ -11104,7 +11104,7 @@ a {
   position: relative;
 }
 .footer .dropdown .btn-dropdown-outline {
-  border: 1px solid #b49002;
+  border: 1px solid #272d51;
   border-radius: 5px;
   font-size: 1.6rem;
   padding: 1.2rem;
@@ -11116,7 +11116,7 @@ a {
   position: absolute;
   width: auto;
   border-radius: 5px;
-  border: 1px solid #b49002;
+  border: 1px solid #272d51;
 }
 .footer .dropdown-item {
   padding: 1rem 1.2rem;
@@ -11138,7 +11138,7 @@ a {
 }
 .footer .social-icons a {
   display: inline-block;
-  color: #b49002;
+  color: #272d51;
 }
 .footer .social-icons a:first-child {
   padding-left: 2rem;
@@ -11158,7 +11158,7 @@ a {
 .footer .copyright {
   font-size: 1rem;
   font-weight: 300;
-  color: #b49002;
+  color: #272d51;
   text-align: center;
 }
 @media (min-width: 1024px) {
@@ -11319,7 +11319,7 @@ a {
   margin: 0;
   opacity: 1;
   background: #F8C603;
-  background: linear-gradient(to right, #c5e1ff 0%, #5381b3 70%, #c5e1ff 100%);
+  background: linear-gradient(to right, #ffeea7 0%, #F8C603 70%, #ffeea7 100%);
 }
 @media (min-width: 630px) {
   .footer hr,
@@ -11363,7 +11363,7 @@ a {
 .brochure-nav .tab-content p,
 .brochure-nav .tab-content h5,
 .brochure-nav .tab-content .h5 {
-  color: #b49002;
+  color: #272d51;
   font-weight: 300;
   font-size: 1.4rem;
   margin-bottom: 2rem;
@@ -11392,7 +11392,7 @@ a {
 }
 .brochure-nav .nav-pills .active {
   background-color: transparent !important;
-  border-left: 3px solid #b49002;
+  border-left: 3px solid #272d51;
   position: relative;
   left: -3px;
 }
@@ -11409,11 +11409,11 @@ a {
   }
 }
 .brochure-nav .nav-pills .nav-link.active, .brochure-nav .nav-pills .nav-link:active, .brochure-nav .nav-pills .nav-link:focus {
-  color: #b49002;
+  color: #272d51;
   font-weight: 600;
 }
 .brochure-nav .nav-pills .nav-link:hover {
-  color: #b49002;
+  color: #272d51;
 }
 .brochure-nav .nav-pills .nav-link:not(:last-child) {
   margin-bottom: 2rem;
@@ -11424,7 +11424,7 @@ header .transparent-bg {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #312a9188;
+  background-color: #f8c603b5;
 }
 
 .jumbotron {
@@ -11972,7 +11972,7 @@ header .transparent-bg {
   background-color: #f5f7ff;
   padding: 5rem 1rem;
   font-size: 1.8rem;
-  color: #b49002;
+  color: #272d51;
 }
 @media (min-width: 1200px) {
   .business {
@@ -12070,10 +12070,10 @@ header .transparent-bg {
 }
 .business .nav-pills .nav-link.active {
   font-weight: 600;
-  color: #b49002;
+  color: #272d51;
 }
 .business .nav-pills .nav-link:active, .business .nav-pills .nav-link:focus, .business .nav-pills .nav-link:hover {
-  color: #b49002;
+  color: #272d51;
 }
 .business .active {
   background-color: transparent !important;
@@ -12110,7 +12110,7 @@ header .transparent-bg {
   }
 }
 .contact h2, .contact .h2 {
-  color: #b49002;
+  color: #272d51;
   margin-bottom: 2rem;
   font-size: 2.5rem;
   font-weight: 300;
@@ -12218,18 +12218,10 @@ header .transparent-bg {
 .about-us header {
   position: relative;
   z-index: 1;
-  background: url(../../assets/images/bg.png) no-repeat center bottom;
-  background-size: cover;
   overflow: hidden;
   min-height: 29.5rem;
-  color: #fff;
+  color: #272d51;
   padding: 10rem 0 0;
-}
-@media (min-width: 630px) {
-  .about-us header {
-    background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
-    background-size: cover;
-  }
 }
 .about-us header p {
   color: inherit;
@@ -12280,7 +12272,7 @@ header .transparent-bg {
 }
 .about-us .social-icons a {
   display: inline-block;
-  color: #fff;
+  color: #272d51;
 }
 .about-us .social-icons a .fa-lg {
   font-size: 2.4rem;
@@ -12452,18 +12444,10 @@ header .transparent-bg {
 .services-section header {
   position: relative;
   z-index: 1;
-  background: url(../../assets/images/bg.png) no-repeat center bottom;
-  background-size: cover;
   overflow: hidden;
   min-height: 29.5rem;
-  color: #fff;
+  color: #272d51;
   padding: 10rem 0 0;
-}
-@media (min-width: 630px) {
-  .services-section header {
-    background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
-    background-size: cover;
-  }
 }
 .services-section header p {
   color: inherit;
@@ -12481,7 +12465,7 @@ header .transparent-bg {
 }
 .services-section .social-icons a {
   display: inline-block;
-  color: #fff;
+  color: #272d51;
 }
 .services-section .social-icons a .fa-lg {
   font-size: 2.4rem;
@@ -12589,18 +12573,10 @@ header .transparent-bg {
 .blog header {
   position: relative;
   z-index: 1;
-  background: url(../../assets/images/bg.png) no-repeat center bottom;
-  background-size: cover;
   overflow: hidden;
   min-height: 29.5rem;
-  color: #fff;
+  color: #272d51;
   padding: 10rem 0 0;
-}
-@media (min-width: 630px) {
-  .blog header {
-    background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
-    background-size: cover;
-  }
 }
 .blog header p {
   color: inherit;
@@ -12618,7 +12594,7 @@ header .transparent-bg {
 }
 .blog .social-icons a {
   display: inline-block;
-  color: #fff;
+  color: #272d51;
 }
 .blog .social-icons a .fa-lg {
   font-size: 2.4rem;
@@ -12810,7 +12786,7 @@ header .transparent-bg {
 }
 .blogpost-content__text {
   font-size: 1.6rem;
-  color: #b49002;
+  color: #272d51;
   line-height: 2.2rem;
 }
 .blogpost-content__text p {
@@ -12869,18 +12845,10 @@ header .transparent-bg {
 .contact-us header {
   position: relative;
   z-index: 1;
-  background: url(../../assets/images/bg.png) no-repeat center bottom;
-  background-size: cover;
   overflow: hidden;
   min-height: 29.5rem;
-  color: #fff;
+  color: #272d51;
   padding: 10rem 0 0;
-}
-@media (min-width: 630px) {
-  .contact-us header {
-    background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
-    background-size: cover;
-  }
 }
 .contact-us header p {
   color: inherit;
@@ -12898,7 +12866,7 @@ header .transparent-bg {
 }
 .contact-us .social-icons a {
   display: inline-block;
-  color: #fff;
+  color: #272d51;
 }
 .contact-us .social-icons a .fa-lg {
   font-size: 2.4rem;
@@ -12974,11 +12942,11 @@ header .transparent-bg {
 }
 .contact-form label {
   font-size: 1.2rem;
-  color: #b49002;
+  color: #272d51;
   font-weight: 400;
 }
 .contact-form ::placeholder {
-  color: #b49002;
+  color: #272d51;
 }
 
 .contact-details {
@@ -13002,7 +12970,7 @@ header .transparent-bg {
 .contact-details a {
   font-size: 1.6rem;
   font-weight: 400;
-  color: #b49002;
+  color: #272d51;
   text-decoration: none;
   margin-bottom: 0;
 }
@@ -13153,11 +13121,11 @@ header .transparent-bg {
 }
 .quote-form label {
   font-size: 1.2rem;
-  color: #b49002;
+  color: #272d51;
   font-weight: 400;
 }
 .quote-form ::placeholder {
-  color: #b49002;
+  color: #272d51;
 }
 
 .quote-details {
@@ -13170,7 +13138,7 @@ header .transparent-bg {
 }
 .quote-details p {
   font-size: 1.4rem;
-  color: #b49002;
+  color: #272d51;
   line-height: 2.6rem;
   margin-bottom: 2rem;
 }
@@ -13305,7 +13273,7 @@ header .transparent-bg {
 .mobile-app {
   height: auto;
   background: white;
-  color: #b49002;
+  color: #272d51;
   padding: 7.2rem 0 7rem;
 }
 @media (min-width: 768px) {
@@ -13342,7 +13310,7 @@ header .transparent-bg {
 
 .enterprise-dev {
   height: auto;
-  color: #b49002;
+  color: #272d51;
   padding-bottom: 7rem;
 }
 .enterprise-dev h2, .enterprise-dev .h2 {
@@ -13379,7 +13347,7 @@ header .transparent-bg {
 
 .web-app {
   height: auto;
-  color: #b49002;
+  color: #272d51;
   padding-bottom: 7rem;
 }
 .web-app h2, .web-app .h2 {
@@ -13533,7 +13501,7 @@ header .transparent-bg {
 .implementation {
   height: auto;
   background: white;
-  color: #b49002;
+  color: #272d51;
   padding: 7.2rem 0 7rem;
 }
 @media (min-width: 768px) {
@@ -13570,7 +13538,7 @@ header .transparent-bg {
 
 .consulting {
   height: auto;
-  color: #b49002;
+  color: #272d51;
   padding-bottom: 7rem;
 }
 .consulting h2, .consulting .h2 {
@@ -13612,13 +13580,13 @@ header .transparent-bg {
   height: auto;
   background: #e3a405;
   background: linear-gradient(0deg, #e3a405 0%, #ffd262 100%);
-  color: #b49002;
+  color: #272d51;
   padding-bottom: 7rem;
 }
 .why-powerbi h2, .why-powerbi .h2 {
   font-size: 2rem;
   margin: 3rem 0;
-  color: #b49002;
+  color: #272d51;
 }
 @media (min-width: 768px) {
   .why-powerbi h2, .why-powerbi .h2 {
@@ -13636,7 +13604,7 @@ header .transparent-bg {
 .why-powerbi p,
 .why-powerbi li {
   font-size: 1.4rem;
-  color: #b49002;
+  color: #272d51;
   line-height: 2.6rem;
 }
 @media (min-width: 992px) {
@@ -13660,7 +13628,7 @@ header .transparent-bg {
 .data-sources {
   height: auto;
   background-color: white;
-  color: #b49002;
+  color: #272d51;
   padding-bottom: 7rem;
 }
 .data-sources .row {
@@ -13811,7 +13779,7 @@ header .transparent-bg {
 .education {
   height: auto;
   background: white;
-  color: #b49002;
+  color: #272d51;
   padding: 7.2rem 0 7rem;
 }
 @media (min-width: 768px) {
@@ -14080,7 +14048,7 @@ header .transparent-bg {
 
 .definition {
   height: auto;
-  color: #b49002;
+  color: #272d51;
   padding-bottom: 7rem;
 }
 .definition h2, .definition .h2 {
@@ -14315,7 +14283,7 @@ header .transparent-bg {
 
 .ai-dev {
   height: auto;
-  color: #b49002;
+  color: #272d51;
   padding: 7.2rem 0 7rem;
 }
 @media (min-width: 768px) {
@@ -14360,7 +14328,7 @@ header .transparent-bg {
 .iot {
   height: auto;
   background-color: #F8F8F8;
-  color: #b49002;
+  color: #272d51;
   padding-bottom: 7rem;
 }
 .iot h2, .iot .h2 {
@@ -14397,7 +14365,7 @@ header .transparent-bg {
 
 .iot-business {
   height: auto;
-  color: #b49002;
+  color: #272d51;
   padding-bottom: 7rem;
 }
 .iot-business h2, .iot-business .h2 {
@@ -14435,7 +14403,7 @@ header .transparent-bg {
 .benefits {
   height: auto;
   background: white;
-  color: #b49002;
+  color: #272d51;
   padding-bottom: 4rem;
 }
 @media (min-width: 768px) {
@@ -15216,7 +15184,7 @@ header .transparent-bg {
 
 .analytics {
   height: auto;
-  color: #b49002;
+  color: #272d51;
 }
 .analytics__text {
   font-size: 2rem;
@@ -15263,7 +15231,7 @@ header .transparent-bg {
 }
 .analytics__sub-header {
   font-size: 2.5rem;
-  color: #b49002;
+  color: #272d51;
   font-weight: 600;
 }
 @media (min-width: 1200px) {
@@ -15441,7 +15409,7 @@ header .transparent-bg {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #312a9188;
+  background-color: #f8c603b5;
 }
 .dg-services .about .row {
   padding: 0 1rem 1rem;
@@ -15526,12 +15494,12 @@ header .transparent-bg {
 .dg-services-nav .tab-pane p,
 .dg-services-nav .tab-pane h5,
 .dg-services-nav .tab-pane .h5 {
-  color: #b49002 !important;
+  color: #272d51 !important;
 }
 
 .digital-strategy {
   height: auto;
-  color: #b49002;
+  color: #272d51;
 }
 .digital-strategy__header, .digital-strategy__sub-header {
   font-size: 2.5rem;
@@ -15564,7 +15532,7 @@ header .transparent-bg {
 }
 .digital-strategy__sub-header {
   font-size: 2.5rem;
-  color: #b49002;
+  color: #272d51;
   font-weight: 600;
 }
 @media (min-width: 992px) {
@@ -15615,7 +15583,7 @@ header .transparent-bg {
 
 .go-digital {
   height: auto;
-  color: #b49002;
+  color: #272d51;
 }
 .go-digital__header, .go-digital__sub-header {
   font-size: 2.5rem;
@@ -15635,7 +15603,7 @@ header .transparent-bg {
 }
 .go-digital__sub-header {
   font-size: 2.5rem;
-  color: #b49002;
+  color: #272d51;
   font-weight: 600;
 }
 @media (min-width: 992px) {
@@ -15682,7 +15650,7 @@ header .transparent-bg {
 
 .resourcing {
   height: auto;
-  color: #b49002;
+  color: #272d51;
 }
 .resourcing__header, .resourcing__sub-header {
   font-size: 2.5rem;
@@ -15716,7 +15684,7 @@ header .transparent-bg {
 }
 .resourcing__sub-header {
   font-size: 2.5rem;
-  color: #b49002;
+  color: #272d51;
   font-weight: 600;
 }
 @media (min-width: 992px) {
@@ -15726,7 +15694,7 @@ header .transparent-bg {
 }
 .resourcing__header-2 {
   font-size: 3rem;
-  color: #b49002;
+  color: #272d51;
   margin: 7rem 0 4rem;
 }
 @media (min-width: 768px) {

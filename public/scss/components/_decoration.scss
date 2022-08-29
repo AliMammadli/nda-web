@@ -12,7 +12,7 @@
     margin: 0;
     opacity: 1;
     background: $primary;
-    background: linear-gradient(to right, #c5e1ff 0%, #5381b3 70%, #c5e1ff 100%);
+    background: linear-gradient(to right, #ffeea7 0%, $primary 70%, #ffeea7 100%);
   }
 }
 
@@ -120,5 +120,5 @@ header .transparent-bg{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: #312a9188;
+    background-color: #f8c603b5;
 }
