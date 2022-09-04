@@ -4,13 +4,13 @@
     height: 100vh !important;
     background: url("../../assets/images/bg-home-mobile.jpg") no-repeat top center fixed;
     @include atSmall {
-        background: url("../../assets/images/bg-home-2.jpg") no-repeat top center fixed;
+        background: url("../../assets/images/bg-home-4.jpeg") no-repeat top center fixed;
         background-size: cover;
     }
     background-size: cover;
     height: 100%;
     overflow: hidden;
-    color: $white;
+    color: $primary;
     h1 {
         text-transform: uppercase;
         font-weight: 700;
@@ -38,6 +38,9 @@
             padding: 8rem 0;
         }
     }
+    .btn-outline-white {
+        color: $primary;
+    }
     .social-icons {
         text-align: center;
         @include atLarge {
@@ -45,7 +48,7 @@
         }
         a {
             display: inline-block;
-            color: $white;
+            color: $primary;
             .fa-lg {
                 font-size: 2.1rem !important;
             }

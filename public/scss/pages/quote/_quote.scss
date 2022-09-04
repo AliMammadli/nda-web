@@ -18,17 +18,11 @@
         margin-bottom: 2rem;
     }
     header {
-        @include atSmall {
-            background: url(../../assets/images/bg.png) no-repeat center bottom fixed;
-            background-size: cover;
-        }
         position: relative;
         z-index: 1;
-        background: url(../../assets/images/bg.png) no-repeat center bottom;
-        background-size: cover;
         overflow: hidden;
         min-height: 29.5rem;
-        color: $white;
+        color: $dark-navy;
         padding: 10rem 0 0;
         p {
             color: inherit;
@@ -44,7 +38,7 @@
         }
         a {
             display: inline-block;
-            color: $white;
+            color: $dark-navy;
             .fa-lg {
                 @include atSmall {
                     font-size: 2.1rem !important;

@@ -1,0 +1,342 @@
+.course {
+    .transparent-bg {
+        background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(69, 86, 102, 1) 0%, rgba(34, 34, 34, 1) 90%);
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+
+        @include atSmall {
+            font-size: 4.5rem;
+        }
+    }
+
+    p {
+        @include atSmall {
+            font-size: 1.8rem;
+        }
+
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        font-weight: 400;
+        // color: $gray;
+        margin-bottom: 2rem;
+    }
+
+    header {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        min-height: 29.5rem;
+        color: $white;
+        padding: 10rem 0 0;
+
+        p {
+            color: inherit;
+            margin-bottom: 0 !important;
+        }
+    }
+
+    .about {
+        .row {
+            @include atSmall {
+                padding: 2rem 0;
+            }
+
+            @include atMedium {
+                padding: 6rem 0 2rem;
+            }
+
+            padding: 0 1rem 1rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            font-weight: 400;
+
+            @include atSmall {
+                font-size: 1.6rem;
+            }
+
+            @include atMedium {
+                font-size: 1.7rem;
+            }
+
+            @include atLarge {
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    .social-icons {
+        align-self: flex-end;
+        text-align: left;
+        margin-top: 3rem;
+
+        @include atMedium {
+            text-align: right;
+        }
+
+        a {
+            display: inline-block;
+            color: $white;
+
+            .fa-lg {
+                @include atSmall {
+                    font-size: 2.1rem !important;
+                }
+
+                font-size: 2.4rem;
+                margin-right: 2rem;
+            }
+
+            .fa-linkedin:hover {
+                color: #0077b5;
+            }
+
+            .fa-facebook-square:hover {
+                color: #1877f2;
+            }
+
+            .fa-youtube:hover {
+                color: #ff0000;
+            }
+        }
+    }
+
+    img {
+        height: 100%;
+    }
+
+    .row {
+        @include atSmall {
+            padding: 10rem 0;
+        }
+
+        padding: 10rem 1rem;
+    }
+}
+
+.page-nav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 1.2rem;
+    border-bottom: 1px solid #e3e4e5;
+
+    nav {
+        line-height: 3rem;
+    }
+
+    ul {
+        list-style-type: none;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    li {
+        list-style-type: none;
+        white-space: nowrap;
+        display: inline-block;
+        padding-right: 1.5rem !important;
+    }
+
+    a {
+        font-size: 1.4rem;
+        color: #2c2c2e !important;
+        font-weight: 500;
+        text-decoration: none;
+
+        @include atMedium {
+            opacity: 60%;
+        }
+
+        @include atMedium {
+            &.active {
+                color: $primary  !important;
+                opacity: 100%;
+            }
+        }
+
+        &:active,
+        &:hover,
+        &:focus {
+            opacity: 1;
+            font-weight: 700;
+
+            @include atMedium {
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.you-learn {
+    @include media-breakpoint-down(md) {
+        margin: 0 2rem;
+    }
+
+    .title {
+        margin: 7rem 0 3rem;
+
+        @include media-breakpoint-down(md) {
+            margin: 4rem 0 3rem;
+        }
+
+        h3 {
+            color: #2c2c2e;
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+    }
+
+    .learn {
+        display: flex;
+        margin-bottom: 5rem;
+
+        h4 {
+            margin-left: 1rem;
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: #8e8e93;
+        }
+
+        .fa-lg {
+            font-size: 2.1rem !important;
+        }
+
+        .fa-check {
+            color: #1F8354;
+        }
+    }
+}
+
+.your-skills {
+    @include media-breakpoint-down(md) {
+        margin: 0 2rem;
+    }
+
+    .title {
+        margin: 7rem 0 3rem;
+
+        @include media-breakpoint-down(md) {
+            margin: 4rem 0 3rem;
+        }
+
+        h3 {
+            color: #2c2c2e;
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+    }
+
+    .skills {
+        display: flex;
+
+        ul {
+            list-style: none;
+            flex-wrap: wrap;
+            padding: 0;
+            margin: 0;
+            outline: 0;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            border-radius: 1.8rem;
+            background-color: #d1d1d6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem 2rem;
+            margin: 0 8px 8px 0;
+            border: none;
+            width: fit-content;
+            white-space: nowrap;
+            overflow: hidden;
+
+            h5 {
+                color: rgb(31, 31, 31);
+                font-size: 1.4rem;
+                font-weight: 400;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.about-course {
+    margin-top: 2rem;
+
+    @include media-breakpoint-down(md) {
+        margin: 0 2rem;
+    }
+
+    h2 {
+        margin: 5rem 0 3rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.parts {
+    @include media-breakpoint-down(md) {
+        margin: 0 2rem;
+    }
+
+    .title {
+        margin: 7rem 0 5rem;
+
+        @include media-breakpoint-down(md) {
+            margin: 4rem 0 3rem;
+        }
+
+        h1 {
+            color: #2c2c2e;
+        }
+    }
+
+    .part {
+        display: flex;
+        margin-bottom: 5rem;
+
+        .part-order {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #8e8e93;
+
+            h3 {
+                letter-spacing: 0.5rem;
+                font-size: 1.4rem;
+                font-weight: 700;
+            }
+
+            h1 {
+                font-size: 5rem;
+                font-weight: 300;
+                margin: 2rem 0;
+            }
+        }
+
+        .part-desc {
+            margin-left: 5rem;
+
+            @include media-breakpoint-down(md) {
+                margin-left: 3rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

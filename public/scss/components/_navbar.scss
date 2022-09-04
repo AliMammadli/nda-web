@@ -35,7 +35,7 @@
     font-weight: 500;
 
     a {
-      color: $primary !important;
+      color: #8e8e93 !important;
       font-family: "Ubuntu";
       position: relative;
       font-size: 1.8rem;
@@ -50,20 +50,21 @@
 
       @include atMedium {
         &.active {
+          color: $primary !important;
           opacity: 100%;
 
-          &:after {
-            content: "";
-            background-color: $primary;
-            bottom: 0;
-            display: block;
-            height: 6px;
-            left: 50%;
-            position: absolute;
-            transform: translate(-50%, 0);
-            width: 6px;
-            border-radius: 2px;
-          }
+        //   &:after {
+        //     content: "";
+        //     background-color: $primary;
+        //     bottom: 0;
+        //     display: block;
+        //     height: 6px;
+        //     left: 50%;
+        //     position: absolute;
+        //     transform: translate(-50%, 0);
+        //     width: 6px;
+        //     border-radius: 2px;
+        //   }
         }
       }
 
